@@ -20,7 +20,7 @@
             "career": "Data Science",
             "required_skills": [
                 "Python",
-                "Statistics",
+                "Statics",
                 "Pandas",
                 "Machine Learning"
             ],
@@ -80,3 +80,4 @@
         }
     ]
 }
+
