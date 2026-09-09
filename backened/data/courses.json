@@ -1,0 +1,76 @@
+{
+    "courses":[
+        {
+            "competency":"Data Analysis",
+            "required_skills":[
+                "Statistics","Excel",
+                "Data Visualization"
+            ],
+            "recommended-training":[
+                "Introduction to Data Analysis",
+                "Statistical Methods",
+                "Dta visualization Fundamentals"
+            ],
+            "platform": "iGOT Karmyogi"
+        },
+        {
+            "competency":"Official Statistics",
+            "required_skills":[
+                "Statistical Methods",
+                "Data Collection",
+                "Data Interpretation"
+            ],
+            "recommended_training":[
+                "Fundamentals of official Statistics",
+                "SUrvey Data Collection",
+                "Statistical Data Interpretation"
+            ],
+            "platform":"igot Karmyogi"
+        },
+
+        {
+            "competency":"Digital Skills",
+            "required_skills":[
+                "Computer Fundamentals",
+                "Digital Tools",
+                "Data management"
+            ],
+            "recommend_training":[
+                "Digital Literacy",
+                "Government Digital Tools",
+                "Data Management Basics"
+            ],
+            "platform": "iGOT Karmyogi"
+        },
+        {
+            "competency":"Data Management",
+            "required_skills":[
+                "Database Basics",
+                "Data Security",
+                "Data Quality"
+            ],
+            "recommend_training":[
+                "Database Fundamemntals",
+                "Data Quality Management",
+                "Data Security Awareness"
+            ],
+            "platform":"iGOT Karmyogi"
+        },
+
+        {
+            "competency":"Statistical Computing",
+            "required_skills":[
+                "Python",
+                "Statistics",
+                "Applied Data Analysis"
+            ],
+            "recommend_training":[
+                "Python for Data Analysis",
+                "Statistical Computing",
+                "Applied Data Analysis"
+            ],
+            "platform":"iGOT Karmyogi"
+            }
+        
+    ]
+}
