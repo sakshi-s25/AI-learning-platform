@@ -1,0 +1,1903 @@
+{
+  "metadata": {
+    "name": "PS-101 Mock iGOT Integration Dataset",
+    "version": "1.0",
+    "purpose": "Academic/hackathon prototype",
+    "official": false,
+    "notice": "All records, endpoints and URLs are mock data and are not official iGOT Karmayogi APIs."
+  },
+  "competencies": [
+    {
+      "competency_id": "COMP001",
+      "name": "Python",
+      "category": "Programming",
+      "description": "Ability to write and use Python for data and automation tasks."
+    },
+    {
+      "competency_id": "COMP002",
+      "name": "Data Analysis",
+      "category": "Data & Analytics",
+      "description": "Ability to clean, analyze and interpret datasets."
+    },
+    {
+      "competency_id": "COMP003",
+      "name": "Statistics",
+      "category": "Statistics",
+      "description": "Understanding of statistical concepts and methods."
+    },
+    {
+      "competency_id": "COMP004",
+      "name": "Official Statistics",
+      "category": "Statistics",
+      "description": "Knowledge of concepts and practices used in official statistics."
+    },
+    {
+      "competency_id": "COMP005",
+      "name": "Data Visualization",
+      "category": "Data & Analytics",
+      "description": "Ability to communicate data insights using visualizations."
+    },
+    {
+      "competency_id": "COMP006",
+      "name": "SQL",
+      "category": "Database",
+      "description": "Ability to query and manage relational data."
+    },
+    {
+      "competency_id": "COMP007",
+      "name": "Database Management",
+      "category": "Database",
+      "description": "Fundamentals of designing and managing databases."
+    },
+    {
+      "competency_id": "COMP008",
+      "name": "Machine Learning",
+      "category": "AI",
+      "description": "Understanding and application of machine learning methods."
+    },
+    {
+      "competency_id": "COMP009",
+      "name": "Artificial Intelligence",
+      "category": "AI",
+      "description": "Fundamentals and applications of AI."
+    },
+    {
+      "competency_id": "COMP010",
+      "name": "Data Quality",
+      "category": "Data Governance",
+      "description": "Methods for assessing and improving data quality."
+    },
+    {
+      "competency_id": "COMP011",
+      "name": "Data Governance",
+      "category": "Data Governance",
+      "description": "Principles for responsible data management and governance."
+    },
+    {
+      "competency_id": "COMP012",
+      "name": "Data Privacy",
+      "category": "Data Governance",
+      "description": "Principles of privacy, confidentiality and responsible data handling."
+    },
+    {
+      "competency_id": "COMP013",
+      "name": "Cyber Security",
+      "category": "IT Security",
+      "description": "Basic practices for protecting systems and information."
+    },
+    {
+      "competency_id": "COMP014",
+      "name": "Excel",
+      "category": "Productivity",
+      "description": "Spreadsheet analysis, formulas and data management."
+    },
+    {
+      "competency_id": "COMP015",
+      "name": "Project Management",
+      "category": "Management",
+      "description": "Planning, executing and monitoring projects."
+    },
+    {
+      "competency_id": "COMP016",
+      "name": "Communication",
+      "category": "Soft Skills",
+      "description": "Clear written and verbal professional communication."
+    },
+    {
+      "competency_id": "COMP017",
+      "name": "Leadership",
+      "category": "Management",
+      "description": "Skills for leading teams and making effective decisions."
+    },
+    {
+      "competency_id": "COMP018",
+      "name": "Problem Solving",
+      "category": "Soft Skills",
+      "description": "Structured approaches to solving workplace problems."
+    },
+    {
+      "competency_id": "COMP019",
+      "name": "Research Methods",
+      "category": "Research",
+      "description": "Methods for planning and conducting data-driven research."
+    },
+    {
+      "competency_id": "COMP020",
+      "name": "Survey Methodology",
+      "category": "Statistics",
+      "description": "Design and implementation of statistical surveys."
+    },
+    {
+      "competency_id": "COMP021",
+      "name": "Data Collection",
+      "category": "Statistics",
+      "description": "Planning and executing reliable data collection."
+    },
+    {
+      "competency_id": "COMP022",
+      "name": "Data Interpretation",
+      "category": "Data & Analytics",
+      "description": "Interpreting analytical results for decision making."
+    },
+    {
+      "competency_id": "COMP023",
+      "name": "Cloud Computing",
+      "category": "Technology",
+      "description": "Fundamentals of cloud platforms and services."
+    },
+    {
+      "competency_id": "COMP024",
+      "name": "API Integration",
+      "category": "Technology",
+      "description": "Using REST APIs and services to integrate applications."
+    },
+    {
+      "competency_id": "COMP025",
+      "name": "Natural Language Processing",
+      "category": "AI",
+      "description": "Processing and analyzing human language with AI."
+    },
+    {
+      "competency_id": "COMP026",
+      "name": "Generative AI",
+      "category": "AI",
+      "description": "Using generative AI systems responsibly for productivity and learning."
+    },
+    {
+      "competency_id": "COMP027",
+      "name": "Ethics in AI",
+      "category": "AI Governance",
+      "description": "Responsible, fair and transparent use of AI."
+    },
+    {
+      "competency_id": "COMP028",
+      "name": "Presentation Skills",
+      "category": "Soft Skills",
+      "description": "Creating and delivering effective professional presentations."
+    },
+    {
+      "competency_id": "COMP029",
+      "name": "Time Management",
+      "category": "Soft Skills",
+      "description": "Planning and prioritizing work effectively."
+    },
+    {
+      "competency_id": "COMP030",
+      "name": "Digital Literacy",
+      "category": "Digital Skills",
+      "description": "Using digital tools effectively and safely."
+    }
+  ],
+  "courses": [
+    {
+      "course_id": "IGOT-MOCK-001",
+      "title": "Introduction to Data Analysis",
+      "description": "Mock learning resource for data & analytics skills, designed for the PS-101 prototype.",
+      "competency_ids": [
+        "COMP002",
+        "COMP003"
+      ],
+      "competencies": [
+        "Data Analysis",
+        "Statistics"
+      ],
+      "level": "Beginner",
+      "duration_hours": 4,
+      "language": "English",
+      "category": "Data & Analytics",
+      "provider": "Mock iGOT Learning Provider",
+      "rating": 3.9,
+      "enrollment_count": 387,
+      "completion_percentage": 64.7,
+      "prerequisites": [],
+      "learning_objectives": [
+        "Understand Data Analysis",
+        "Understand Statistics",
+        "Apply the skill in practical workplace scenarios."
+      ],
+      "mock_resource_url": "https://example.org/mock-igot/course/IGOT-MOCK-001"
+    },
+    {
+      "course_id": "IGOT-MOCK-002",
+      "title": "Python for Data Analysis",
+      "description": "Mock learning resource for programming skills, designed for the PS-101 prototype.",
+      "competency_ids": [
+        "COMP001",
+        "COMP002"
+      ],
+      "competencies": [
+        "Python",
+        "Data Analysis"
+      ],
+      "level": "Intermediate",
+      "duration_hours": 6,
+      "language": "English",
+      "category": "Programming",
+      "provider": "Mock iGOT Learning Provider",
+      "rating": 4.0,
+      "enrollment_count": 524,
+      "completion_percentage": 68.4,
+      "prerequisites": [
+        "Python"
+      ],
+      "learning_objectives": [
+        "Understand Python",
+        "Understand Data Analysis",
+        "Apply the skill in practical workplace scenarios."
+      ],
+      "mock_resource_url": "https://example.org/mock-igot/course/IGOT-MOCK-002"
+    },
+    {
+      "course_id": "IGOT-MOCK-003",
+      "title": "Fundamentals of Official Statistics",
+      "description": "Mock learning resource for statistics skills, designed for the PS-101 prototype.",
+      "competency_ids": [
+        "COMP004",
+        "COMP003"
+      ],
+      "competencies": [
+        "Official Statistics",
+        "Statistics"
+      ],
+      "level": "Beginner",
+      "duration_hours": 5,
+      "language": "English",
+      "category": "Statistics",
+      "provider": "Mock iGOT Learning Provider",
+      "rating": 4.1,
+      "enrollment_count": 661,
+      "completion_percentage": 72.1,
+      "prerequisites": [],
+      "learning_objectives": [
+        "Understand Official Statistics",
+        "Understand Statistics",
+        "Apply the skill in practical workplace scenarios."
+      ],
+      "mock_resource_url": "https://example.org/mock-igot/course/IGOT-MOCK-003"
+    },
+    {
+      "course_id": "IGOT-MOCK-004",
+      "title": "Advanced Statistics for Analysts",
+      "description": "Mock learning resource for statistics skills, designed for the PS-101 prototype.",
+      "competency_ids": [
+        "COMP003",
+        "COMP002"
+      ],
+      "competencies": [
+        "Statistics",
+        "Data Analysis"
+      ],
+      "level": "Advanced",
+      "duration_hours": 8,
+      "language": "English",
+      "category": "Statistics",
+      "provider": "Mock iGOT Learning Provider",
+      "rating": 4.2,
+      "enrollment_count": 798,
+      "completion_percentage": 75.8,
+      "prerequisites": [
+        "Statistics"
+      ],
+      "learning_objectives": [
+        "Understand Statistics",
+        "Understand Data Analysis",
+        "Apply the skill in practical workplace scenarios."
+      ],
+      "mock_resource_url": "https://example.org/mock-igot/course/IGOT-MOCK-004"
+    },
+    {
+      "course_id": "IGOT-MOCK-005",
+      "title": "Data Visualization with Python",
+      "description": "Mock learning resource for data & analytics skills, designed for the PS-101 prototype.",
+      "competency_ids": [
+        "COMP001",
+        "COMP005"
+      ],
+      "competencies": [
+        "Python",
+        "Data Visualization"
+      ],
+      "level": "Intermediate",
+      "duration_hours": 5,
+      "language": "English",
+      "category": "Data & Analytics",
+      "provider": "Mock iGOT Learning Provider",
+      "rating": 4.2,
+      "enrollment_count": 935,
+      "completion_percentage": 79.5,
+      "prerequisites": [
+        "Python"
+      ],
+      "learning_objectives": [
+        "Understand Python",
+        "Understand Data Visualization",
+        "Apply the skill in practical workplace scenarios."
+      ],
+      "mock_resource_url": "https://example.org/mock-igot/course/IGOT-MOCK-005"
+    },
+    {
+      "course_id": "IGOT-MOCK-006",
+      "title": "SQL Fundamentals",
+      "description": "Mock learning resource for database skills, designed for the PS-101 prototype.",
+      "competency_ids": [
+        "COMP006",
+        "COMP007"
+      ],
+      "competencies": [
+        "SQL",
+        "Database Management"
+      ],
+      "level": "Beginner",
+      "duration_hours": 5,
+      "language": "English",
+      "category": "Database",
+      "provider": "Mock iGOT Learning Provider",
+      "rating": 4.3,
+      "enrollment_count": 1072,
+      "completion_percentage": 83.2,
+      "prerequisites": [],
+      "learning_objectives": [
+        "Understand SQL",
+        "Understand Database Management",
+        "Apply the skill in practical workplace scenarios."
+      ],
+      "mock_resource_url": "https://example.org/mock-igot/course/IGOT-MOCK-006"
+    },
+    {
+      "course_id": "IGOT-MOCK-007",
+      "title": "Advanced SQL for Analysts",
+      "description": "Mock learning resource for database skills, designed for the PS-101 prototype.",
+      "competency_ids": [
+        "COMP006",
+        "COMP002"
+      ],
+      "competencies": [
+        "SQL",
+        "Data Analysis"
+      ],
+      "level": "Advanced",
+      "duration_hours": 7,
+      "language": "English",
+      "category": "Database",
+      "provider": "Mock iGOT Learning Provider",
+      "rating": 4.4,
+      "enrollment_count": 1209,
+      "completion_percentage": 86.9,
+      "prerequisites": [
+        "SQL"
+      ],
+      "learning_objectives": [
+        "Understand SQL",
+        "Understand Data Analysis",
+        "Apply the skill in practical workplace scenarios."
+      ],
+      "mock_resource_url": "https://example.org/mock-igot/course/IGOT-MOCK-007"
+    },
+    {
+      "course_id": "IGOT-MOCK-008",
+      "title": "Database Management Essentials",
+      "description": "Mock learning resource for database skills, designed for the PS-101 prototype.",
+      "competency_ids": [
+        "COMP007",
+        "COMP006"
+      ],
+      "competencies": [
+        "Database Management",
+        "SQL"
+      ],
+      "level": "Intermediate",
+      "duration_hours": 6,
+      "language": "English",
+      "category": "Database",
+      "provider": "Mock iGOT Learning Provider",
+      "rating": 4.5,
+      "enrollment_count": 1346,
+      "completion_percentage": 90.6,
+      "prerequisites": [
+        "Database Management"
+      ],
+      "learning_objectives": [
+        "Understand Database Management",
+        "Understand SQL",
+        "Apply the skill in practical workplace scenarios."
+      ],
+      "mock_resource_url": "https://example.org/mock-igot/course/IGOT-MOCK-008"
+    },
+    {
+      "course_id": "IGOT-MOCK-009",
+      "title": "Machine Learning Fundamentals",
+      "description": "Mock learning resource for ai skills, designed for the PS-101 prototype.",
+      "competency_ids": [
+        "COMP008",
+        "COMP001"
+      ],
+      "competencies": [
+        "Machine Learning",
+        "Python"
+      ],
+      "level": "Intermediate",
+      "duration_hours": 8,
+      "language": "English",
+      "category": "AI",
+      "provider": "Mock iGOT Learning Provider",
+      "rating": 4.6,
+      "enrollment_count": 1483,
+      "completion_percentage": 63.3,
+      "prerequisites": [
+        "Machine Learning"
+      ],
+      "learning_objectives": [
+        "Understand Machine Learning",
+        "Understand Python",
+        "Apply the skill in practical workplace scenarios."
+      ],
+      "mock_resource_url": "https://example.org/mock-igot/course/IGOT-MOCK-009"
+    },
+    {
+      "course_id": "IGOT-MOCK-010",
+      "title": "Introduction to Artificial Intelligence",
+      "description": "Mock learning resource for ai skills, designed for the PS-101 prototype.",
+      "competency_ids": [
+        "COMP009",
+        "COMP008"
+      ],
+      "competencies": [
+        "Artificial Intelligence",
+        "Machine Learning"
+      ],
+      "level": "Beginner",
+      "duration_hours": 5,
+      "language": "English",
+      "category": "AI",
+      "provider": "Mock iGOT Learning Provider",
+      "rating": 4.7,
+      "enrollment_count": 1620,
+      "completion_percentage": 67.0,
+      "prerequisites": [],
+      "learning_objectives": [
+        "Understand Artificial Intelligence",
+        "Understand Machine Learning",
+        "Apply the skill in practical workplace scenarios."
+      ],
+      "mock_resource_url": "https://example.org/mock-igot/course/IGOT-MOCK-010"
+    },
+    {
+      "course_id": "IGOT-MOCK-011",
+      "title": "Data Quality Management",
+      "description": "Mock learning resource for data governance skills, designed for the PS-101 prototype.",
+      "competency_ids": [
+        "COMP010",
+        "COMP011"
+      ],
+      "competencies": [
+        "Data Quality",
+        "Data Governance"
+      ],
+      "level": "Intermediate",
+      "duration_hours": 5,
+      "language": "English",
+      "category": "Data Governance",
+      "provider": "Mock iGOT Learning Provider",
+      "rating": 4.8,
+      "enrollment_count": 1757,
+      "completion_percentage": 70.7,
+      "prerequisites": [
+        "Data Quality"
+      ],
+      "learning_objectives": [
+        "Understand Data Quality",
+        "Understand Data Governance",
+        "Apply the skill in practical workplace scenarios."
+      ],
+      "mock_resource_url": "https://example.org/mock-igot/course/IGOT-MOCK-011"
+    },
+    {
+      "course_id": "IGOT-MOCK-012",
+      "title": "Principles of Data Governance",
+      "description": "Mock learning resource for data governance skills, designed for the PS-101 prototype.",
+      "competency_ids": [
+        "COMP011",
+        "COMP010"
+      ],
+      "competencies": [
+        "Data Governance",
+        "Data Quality"
+      ],
+      "level": "Beginner",
+      "duration_hours": 4,
+      "language": "English",
+      "category": "Data Governance",
+      "provider": "Mock iGOT Learning Provider",
+      "rating": 4.9,
+      "enrollment_count": 1894,
+      "completion_percentage": 74.4,
+      "prerequisites": [],
+      "learning_objectives": [
+        "Understand Data Governance",
+        "Understand Data Quality",
+        "Apply the skill in practical workplace scenarios."
+      ],
+      "mock_resource_url": "https://example.org/mock-igot/course/IGOT-MOCK-012"
+    },
+    {
+      "course_id": "IGOT-MOCK-013",
+      "title": "Data Privacy and Confidentiality",
+      "description": "Mock learning resource for data governance skills, designed for the PS-101 prototype.",
+      "competency_ids": [
+        "COMP012",
+        "COMP011"
+      ],
+      "competencies": [
+        "Data Privacy",
+        "Data Governance"
+      ],
+      "level": "Beginner",
+      "duration_hours": 4,
+      "language": "English",
+      "category": "Data Governance",
+      "provider": "Mock iGOT Learning Provider",
+      "rating": 3.8,
+      "enrollment_count": 2031,
+      "completion_percentage": 78.1,
+      "prerequisites": [],
+      "learning_objectives": [
+        "Understand Data Privacy",
+        "Understand Data Governance",
+        "Apply the skill in practical workplace scenarios."
+      ],
+      "mock_resource_url": "https://example.org/mock-igot/course/IGOT-MOCK-013"
+    },
+    {
+      "course_id": "IGOT-MOCK-014",
+      "title": "Cyber Security Awareness",
+      "description": "Mock learning resource for it security skills, designed for the PS-101 prototype.",
+      "competency_ids": [
+        "COMP013",
+        "COMP030"
+      ],
+      "competencies": [
+        "Cyber Security",
+        "Digital Literacy"
+      ],
+      "level": "Beginner",
+      "duration_hours": 3,
+      "language": "English",
+      "category": "IT Security",
+      "provider": "Mock iGOT Learning Provider",
+      "rating": 3.9,
+      "enrollment_count": 2168,
+      "completion_percentage": 81.8,
+      "prerequisites": [],
+      "learning_objectives": [
+        "Understand Cyber Security",
+        "Understand Digital Literacy",
+        "Apply the skill in practical workplace scenarios."
+      ],
+      "mock_resource_url": "https://example.org/mock-igot/course/IGOT-MOCK-014"
+    },
+    {
+      "course_id": "IGOT-MOCK-015",
+      "title": "Excel for Data Analysis",
+      "description": "Mock learning resource for productivity skills, designed for the PS-101 prototype.",
+      "competency_ids": [
+        "COMP014",
+        "COMP002"
+      ],
+      "competencies": [
+        "Excel",
+        "Data Analysis"
+      ],
+      "level": "Beginner",
+      "duration_hours": 5,
+      "language": "English",
+      "category": "Productivity",
+      "provider": "Mock iGOT Learning Provider",
+      "rating": 4.0,
+      "enrollment_count": 2305,
+      "completion_percentage": 85.5,
+      "prerequisites": [],
+      "learning_objectives": [
+        "Understand Excel",
+        "Understand Data Analysis",
+        "Apply the skill in practical workplace scenarios."
+      ],
+      "mock_resource_url": "https://example.org/mock-igot/course/IGOT-MOCK-015"
+    },
+    {
+      "course_id": "IGOT-MOCK-016",
+      "title": "Advanced Excel Techniques",
+      "description": "Mock learning resource for productivity skills, designed for the PS-101 prototype.",
+      "competency_ids": [
+        "COMP014",
+        "COMP002"
+      ],
+      "competencies": [
+        "Excel",
+        "Data Analysis"
+      ],
+      "level": "Intermediate",
+      "duration_hours": 6,
+      "language": "English",
+      "category": "Productivity",
+      "provider": "Mock iGOT Learning Provider",
+      "rating": 4.1,
+      "enrollment_count": 2442,
+      "completion_percentage": 89.2,
+      "prerequisites": [
+        "Excel"
+      ],
+      "learning_objectives": [
+        "Understand Excel",
+        "Understand Data Analysis",
+        "Apply the skill in practical workplace scenarios."
+      ],
+      "mock_resource_url": "https://example.org/mock-igot/course/IGOT-MOCK-016"
+    },
+    {
+      "course_id": "IGOT-MOCK-017",
+      "title": "Project Management Essentials",
+      "description": "Mock learning resource for management skills, designed for the PS-101 prototype.",
+      "competency_ids": [
+        "COMP015",
+        "COMP029"
+      ],
+      "competencies": [
+        "Project Management",
+        "Time Management"
+      ],
+      "level": "Beginner",
+      "duration_hours": 5,
+      "language": "English",
+      "category": "Management",
+      "provider": "Mock iGOT Learning Provider",
+      "rating": 4.2,
+      "enrollment_count": 2579,
+      "completion_percentage": 61.9,
+      "prerequisites": [],
+      "learning_objectives": [
+        "Understand Project Management",
+        "Understand Time Management",
+        "Apply the skill in practical workplace scenarios."
+      ],
+      "mock_resource_url": "https://example.org/mock-igot/course/IGOT-MOCK-017"
+    },
+    {
+      "course_id": "IGOT-MOCK-018",
+      "title": "Leadership Fundamentals",
+      "description": "Mock learning resource for management skills, designed for the PS-101 prototype.",
+      "competency_ids": [
+        "COMP017",
+        "COMP016"
+      ],
+      "competencies": [
+        "Leadership",
+        "Communication"
+      ],
+      "level": "Beginner",
+      "duration_hours": 4,
+      "language": "English",
+      "category": "Management",
+      "provider": "Mock iGOT Learning Provider",
+      "rating": 4.2,
+      "enrollment_count": 2716,
+      "completion_percentage": 65.6,
+      "prerequisites": [],
+      "learning_objectives": [
+        "Understand Leadership",
+        "Understand Communication",
+        "Apply the skill in practical workplace scenarios."
+      ],
+      "mock_resource_url": "https://example.org/mock-igot/course/IGOT-MOCK-018"
+    },
+    {
+      "course_id": "IGOT-MOCK-019",
+      "title": "Professional Communication",
+      "description": "Mock learning resource for soft skills skills, designed for the PS-101 prototype.",
+      "competency_ids": [
+        "COMP016",
+        "COMP028"
+      ],
+      "competencies": [
+        "Communication",
+        "Presentation Skills"
+      ],
+      "level": "Beginner",
+      "duration_hours": 3,
+      "language": "English",
+      "category": "Soft Skills",
+      "provider": "Mock iGOT Learning Provider",
+      "rating": 4.3,
+      "enrollment_count": 2853,
+      "completion_percentage": 69.3,
+      "prerequisites": [],
+      "learning_objectives": [
+        "Understand Communication",
+        "Understand Presentation Skills",
+        "Apply the skill in practical workplace scenarios."
+      ],
+      "mock_resource_url": "https://example.org/mock-igot/course/IGOT-MOCK-019"
+    },
+    {
+      "course_id": "IGOT-MOCK-020",
+      "title": "Structured Problem Solving",
+      "description": "Mock learning resource for soft skills skills, designed for the PS-101 prototype.",
+      "competency_ids": [
+        "COMP018",
+        "COMP022"
+      ],
+      "competencies": [
+        "Problem Solving",
+        "Data Interpretation"
+      ],
+      "level": "Intermediate",
+      "duration_hours": 4,
+      "language": "English",
+      "category": "Soft Skills",
+      "provider": "Mock iGOT Learning Provider",
+      "rating": 4.4,
+      "enrollment_count": 2990,
+      "completion_percentage": 73.0,
+      "prerequisites": [
+        "Problem Solving"
+      ],
+      "learning_objectives": [
+        "Understand Problem Solving",
+        "Understand Data Interpretation",
+        "Apply the skill in practical workplace scenarios."
+      ],
+      "mock_resource_url": "https://example.org/mock-igot/course/IGOT-MOCK-020"
+    },
+    {
+      "course_id": "IGOT-MOCK-021",
+      "title": "Research Methods for Data Professionals",
+      "description": "Mock learning resource for research skills, designed for the PS-101 prototype.",
+      "competency_ids": [
+        "COMP019",
+        "COMP002"
+      ],
+      "competencies": [
+        "Research Methods",
+        "Data Analysis"
+      ],
+      "level": "Intermediate",
+      "duration_hours": 6,
+      "language": "English",
+      "category": "Research",
+      "provider": "Mock iGOT Learning Provider",
+      "rating": 4.5,
+      "enrollment_count": 3127,
+      "completion_percentage": 76.7,
+      "prerequisites": [
+        "Research Methods"
+      ],
+      "learning_objectives": [
+        "Understand Research Methods",
+        "Understand Data Analysis",
+        "Apply the skill in practical workplace scenarios."
+      ],
+      "mock_resource_url": "https://example.org/mock-igot/course/IGOT-MOCK-021"
+    },
+    {
+      "course_id": "IGOT-MOCK-022",
+      "title": "Survey Methodology Fundamentals",
+      "description": "Mock learning resource for statistics skills, designed for the PS-101 prototype.",
+      "competency_ids": [
+        "COMP020",
+        "COMP021"
+      ],
+      "competencies": [
+        "Survey Methodology",
+        "Data Collection"
+      ],
+      "level": "Intermediate",
+      "duration_hours": 6,
+      "language": "English",
+      "category": "Statistics",
+      "provider": "Mock iGOT Learning Provider",
+      "rating": 4.6,
+      "enrollment_count": 3264,
+      "completion_percentage": 80.4,
+      "prerequisites": [
+        "Survey Methodology"
+      ],
+      "learning_objectives": [
+        "Understand Survey Methodology",
+        "Understand Data Collection",
+        "Apply the skill in practical workplace scenarios."
+      ],
+      "mock_resource_url": "https://example.org/mock-igot/course/IGOT-MOCK-022"
+    },
+    {
+      "course_id": "IGOT-MOCK-023",
+      "title": "Modern Data Collection Methods",
+      "description": "Mock learning resource for statistics skills, designed for the PS-101 prototype.",
+      "competency_ids": [
+        "COMP021",
+        "COMP020"
+      ],
+      "competencies": [
+        "Data Collection",
+        "Survey Methodology"
+      ],
+      "level": "Beginner",
+      "duration_hours": 4,
+      "language": "English",
+      "category": "Statistics",
+      "provider": "Mock iGOT Learning Provider",
+      "rating": 4.7,
+      "enrollment_count": 3401,
+      "completion_percentage": 84.1,
+      "prerequisites": [],
+      "learning_objectives": [
+        "Understand Data Collection",
+        "Understand Survey Methodology",
+        "Apply the skill in practical workplace scenarios."
+      ],
+      "mock_resource_url": "https://example.org/mock-igot/course/IGOT-MOCK-023"
+    },
+    {
+      "course_id": "IGOT-MOCK-024",
+      "title": "Interpreting Statistical Results",
+      "description": "Mock learning resource for statistics skills, designed for the PS-101 prototype.",
+      "competency_ids": [
+        "COMP022",
+        "COMP003"
+      ],
+      "competencies": [
+        "Data Interpretation",
+        "Statistics"
+      ],
+      "level": "Intermediate",
+      "duration_hours": 5,
+      "language": "English",
+      "category": "Statistics",
+      "provider": "Mock iGOT Learning Provider",
+      "rating": 4.8,
+      "enrollment_count": 3538,
+      "completion_percentage": 87.8,
+      "prerequisites": [
+        "Data Interpretation"
+      ],
+      "learning_objectives": [
+        "Understand Data Interpretation",
+        "Understand Statistics",
+        "Apply the skill in practical workplace scenarios."
+      ],
+      "mock_resource_url": "https://example.org/mock-igot/course/IGOT-MOCK-024"
+    },
+    {
+      "course_id": "IGOT-MOCK-025",
+      "title": "Cloud Computing Fundamentals",
+      "description": "Mock learning resource for technology skills, designed for the PS-101 prototype.",
+      "competency_ids": [
+        "COMP023",
+        "COMP030"
+      ],
+      "competencies": [
+        "Cloud Computing",
+        "Digital Literacy"
+      ],
+      "level": "Beginner",
+      "duration_hours": 5,
+      "language": "English",
+      "category": "Technology",
+      "provider": "Mock iGOT Learning Provider",
+      "rating": 4.9,
+      "enrollment_count": 3675,
+      "completion_percentage": 91.5,
+      "prerequisites": [],
+      "learning_objectives": [
+        "Understand Cloud Computing",
+        "Understand Digital Literacy",
+        "Apply the skill in practical workplace scenarios."
+      ],
+      "mock_resource_url": "https://example.org/mock-igot/course/IGOT-MOCK-025"
+    },
+    {
+      "course_id": "IGOT-MOCK-026",
+      "title": "REST API Integration",
+      "description": "Mock learning resource for technology skills, designed for the PS-101 prototype.",
+      "competency_ids": [
+        "COMP024",
+        "COMP001"
+      ],
+      "competencies": [
+        "API Integration",
+        "Python"
+      ],
+      "level": "Intermediate",
+      "duration_hours": 5,
+      "language": "English",
+      "category": "Technology",
+      "provider": "Mock iGOT Learning Provider",
+      "rating": 3.8,
+      "enrollment_count": 3812,
+      "completion_percentage": 64.2,
+      "prerequisites": [
+        "API Integration"
+      ],
+      "learning_objectives": [
+        "Understand API Integration",
+        "Understand Python",
+        "Apply the skill in practical workplace scenarios."
+      ],
+      "mock_resource_url": "https://example.org/mock-igot/course/IGOT-MOCK-026"
+    },
+    {
+      "course_id": "IGOT-MOCK-027",
+      "title": "Building Data APIs with Python",
+      "description": "Mock learning resource for technology skills, designed for the PS-101 prototype.",
+      "competency_ids": [
+        "COMP024",
+        "COMP001",
+        "COMP002"
+      ],
+      "competencies": [
+        "API Integration",
+        "Python",
+        "Data Analysis"
+      ],
+      "level": "Advanced",
+      "duration_hours": 7,
+      "language": "English",
+      "category": "Technology",
+      "provider": "Mock iGOT Learning Provider",
+      "rating": 3.9,
+      "enrollment_count": 3949,
+      "completion_percentage": 67.9,
+      "prerequisites": [
+        "API Integration"
+      ],
+      "learning_objectives": [
+        "Understand API Integration",
+        "Understand Python",
+        "Understand Data Analysis",
+        "Apply the skill in practical workplace scenarios."
+      ],
+      "mock_resource_url": "https://example.org/mock-igot/course/IGOT-MOCK-027"
+    },
+    {
+      "course_id": "IGOT-MOCK-028",
+      "title": "Natural Language Processing Basics",
+      "description": "Mock learning resource for ai skills, designed for the PS-101 prototype.",
+      "competency_ids": [
+        "COMP025",
+        "COMP001"
+      ],
+      "competencies": [
+        "Natural Language Processing",
+        "Python"
+      ],
+      "level": "Intermediate",
+      "duration_hours": 7,
+      "language": "English",
+      "category": "AI",
+      "provider": "Mock iGOT Learning Provider",
+      "rating": 4.0,
+      "enrollment_count": 4086,
+      "completion_percentage": 71.6,
+      "prerequisites": [
+        "Natural Language Processing"
+      ],
+      "learning_objectives": [
+        "Understand Natural Language Processing",
+        "Understand Python",
+        "Apply the skill in practical workplace scenarios."
+      ],
+      "mock_resource_url": "https://example.org/mock-igot/course/IGOT-MOCK-028"
+    },
+    {
+      "course_id": "IGOT-MOCK-029",
+      "title": "Generative AI for Workplace Productivity",
+      "description": "Mock learning resource for ai skills, designed for the PS-101 prototype.",
+      "competency_ids": [
+        "COMP026",
+        "COMP030"
+      ],
+      "competencies": [
+        "Generative AI",
+        "Digital Literacy"
+      ],
+      "level": "Beginner",
+      "duration_hours": 4,
+      "language": "English",
+      "category": "AI",
+      "provider": "Mock iGOT Learning Provider",
+      "rating": 4.1,
+      "enrollment_count": 4223,
+      "completion_percentage": 75.3,
+      "prerequisites": [],
+      "learning_objectives": [
+        "Understand Generative AI",
+        "Understand Digital Literacy",
+        "Apply the skill in practical workplace scenarios."
+      ],
+      "mock_resource_url": "https://example.org/mock-igot/course/IGOT-MOCK-029"
+    },
+    {
+      "course_id": "IGOT-MOCK-030",
+      "title": "Responsible Generative AI",
+      "description": "Mock learning resource for ai governance skills, designed for the PS-101 prototype.",
+      "competency_ids": [
+        "COMP026",
+        "COMP027"
+      ],
+      "competencies": [
+        "Generative AI",
+        "Ethics in AI"
+      ],
+      "level": "Intermediate",
+      "duration_hours": 5,
+      "language": "English",
+      "category": "AI Governance",
+      "provider": "Mock iGOT Learning Provider",
+      "rating": 4.2,
+      "enrollment_count": 4360,
+      "completion_percentage": 79.0,
+      "prerequisites": [
+        "Generative AI"
+      ],
+      "learning_objectives": [
+        "Understand Generative AI",
+        "Understand Ethics in AI",
+        "Apply the skill in practical workplace scenarios."
+      ],
+      "mock_resource_url": "https://example.org/mock-igot/course/IGOT-MOCK-030"
+    },
+    {
+      "course_id": "IGOT-MOCK-031",
+      "title": "Ethics and Responsible AI",
+      "description": "Mock learning resource for ai governance skills, designed for the PS-101 prototype.",
+      "competency_ids": [
+        "COMP027",
+        "COMP009"
+      ],
+      "competencies": [
+        "Ethics in AI",
+        "Artificial Intelligence"
+      ],
+      "level": "Beginner",
+      "duration_hours": 4,
+      "language": "English",
+      "category": "AI Governance",
+      "provider": "Mock iGOT Learning Provider",
+      "rating": 4.2,
+      "enrollment_count": 4497,
+      "completion_percentage": 82.7,
+      "prerequisites": [],
+      "learning_objectives": [
+        "Understand Ethics in AI",
+        "Understand Artificial Intelligence",
+        "Apply the skill in practical workplace scenarios."
+      ],
+      "mock_resource_url": "https://example.org/mock-igot/course/IGOT-MOCK-031"
+    },
+    {
+      "course_id": "IGOT-MOCK-032",
+      "title": "Presentation Skills for Analysts",
+      "description": "Mock learning resource for soft skills skills, designed for the PS-101 prototype.",
+      "competency_ids": [
+        "COMP028",
+        "COMP016"
+      ],
+      "competencies": [
+        "Presentation Skills",
+        "Communication"
+      ],
+      "level": "Intermediate",
+      "duration_hours": 4,
+      "language": "English",
+      "category": "Soft Skills",
+      "provider": "Mock iGOT Learning Provider",
+      "rating": 4.3,
+      "enrollment_count": 4634,
+      "completion_percentage": 86.4,
+      "prerequisites": [
+        "Presentation Skills"
+      ],
+      "learning_objectives": [
+        "Understand Presentation Skills",
+        "Understand Communication",
+        "Apply the skill in practical workplace scenarios."
+      ],
+      "mock_resource_url": "https://example.org/mock-igot/course/IGOT-MOCK-032"
+    },
+    {
+      "course_id": "IGOT-MOCK-033",
+      "title": "Effective Time Management",
+      "description": "Mock learning resource for soft skills skills, designed for the PS-101 prototype.",
+      "competency_ids": [
+        "COMP029",
+        "COMP018"
+      ],
+      "competencies": [
+        "Time Management",
+        "Problem Solving"
+      ],
+      "level": "Beginner",
+      "duration_hours": 3,
+      "language": "English",
+      "category": "Soft Skills",
+      "provider": "Mock iGOT Learning Provider",
+      "rating": 4.4,
+      "enrollment_count": 4771,
+      "completion_percentage": 90.1,
+      "prerequisites": [],
+      "learning_objectives": [
+        "Understand Time Management",
+        "Understand Problem Solving",
+        "Apply the skill in practical workplace scenarios."
+      ],
+      "mock_resource_url": "https://example.org/mock-igot/course/IGOT-MOCK-033"
+    },
+    {
+      "course_id": "IGOT-MOCK-034",
+      "title": "Digital Literacy Essentials",
+      "description": "Mock learning resource for digital skills skills, designed for the PS-101 prototype.",
+      "competency_ids": [
+        "COMP030",
+        "COMP013"
+      ],
+      "competencies": [
+        "Digital Literacy",
+        "Cyber Security"
+      ],
+      "level": "Beginner",
+      "duration_hours": 3,
+      "language": "English",
+      "category": "Digital Skills",
+      "provider": "Mock iGOT Learning Provider",
+      "rating": 4.5,
+      "enrollment_count": 4908,
+      "completion_percentage": 62.8,
+      "prerequisites": [],
+      "learning_objectives": [
+        "Understand Digital Literacy",
+        "Understand Cyber Security",
+        "Apply the skill in practical workplace scenarios."
+      ],
+      "mock_resource_url": "https://example.org/mock-igot/course/IGOT-MOCK-034"
+    },
+    {
+      "course_id": "IGOT-MOCK-035",
+      "title": "Official Statistics: Concepts and Applications",
+      "description": "Mock learning resource for statistics skills, designed for the PS-101 prototype.",
+      "competency_ids": [
+        "COMP004",
+        "COMP020"
+      ],
+      "competencies": [
+        "Official Statistics",
+        "Survey Methodology"
+      ],
+      "level": "Intermediate",
+      "duration_hours": 6,
+      "language": "English",
+      "category": "Statistics",
+      "provider": "Mock iGOT Learning Provider",
+      "rating": 4.6,
+      "enrollment_count": 5045,
+      "completion_percentage": 66.5,
+      "prerequisites": [
+        "Official Statistics"
+      ],
+      "learning_objectives": [
+        "Understand Official Statistics",
+        "Understand Survey Methodology",
+        "Apply the skill in practical workplace scenarios."
+      ],
+      "mock_resource_url": "https://example.org/mock-igot/course/IGOT-MOCK-035"
+    },
+    {
+      "course_id": "IGOT-MOCK-036",
+      "title": "Statistical Data Quality Frameworks",
+      "description": "Mock learning resource for statistics skills, designed for the PS-101 prototype.",
+      "competency_ids": [
+        "COMP010",
+        "COMP004"
+      ],
+      "competencies": [
+        "Data Quality",
+        "Official Statistics"
+      ],
+      "level": "Advanced",
+      "duration_hours": 7,
+      "language": "English",
+      "category": "Statistics",
+      "provider": "Mock iGOT Learning Provider",
+      "rating": 4.7,
+      "enrollment_count": 5182,
+      "completion_percentage": 70.2,
+      "prerequisites": [
+        "Data Quality"
+      ],
+      "learning_objectives": [
+        "Understand Data Quality",
+        "Understand Official Statistics",
+        "Apply the skill in practical workplace scenarios."
+      ],
+      "mock_resource_url": "https://example.org/mock-igot/course/IGOT-MOCK-036"
+    },
+    {
+      "course_id": "IGOT-MOCK-037",
+      "title": "Python Automation for Analysts",
+      "description": "Mock learning resource for programming skills, designed for the PS-101 prototype.",
+      "competency_ids": [
+        "COMP001",
+        "COMP018"
+      ],
+      "competencies": [
+        "Python",
+        "Problem Solving"
+      ],
+      "level": "Intermediate",
+      "duration_hours": 6,
+      "language": "English",
+      "category": "Programming",
+      "provider": "Mock iGOT Learning Provider",
+      "rating": 4.8,
+      "enrollment_count": 5319,
+      "completion_percentage": 73.9,
+      "prerequisites": [
+        "Python"
+      ],
+      "learning_objectives": [
+        "Understand Python",
+        "Understand Problem Solving",
+        "Apply the skill in practical workplace scenarios."
+      ],
+      "mock_resource_url": "https://example.org/mock-igot/course/IGOT-MOCK-037"
+    },
+    {
+      "course_id": "IGOT-MOCK-038",
+      "title": "Applied Machine Learning with Python",
+      "description": "Mock learning resource for ai skills, designed for the PS-101 prototype.",
+      "competency_ids": [
+        "COMP008",
+        "COMP001",
+        "COMP002"
+      ],
+      "competencies": [
+        "Machine Learning",
+        "Python",
+        "Data Analysis"
+      ],
+      "level": "Advanced",
+      "duration_hours": 10,
+      "language": "English",
+      "category": "AI",
+      "provider": "Mock iGOT Learning Provider",
+      "rating": 4.9,
+      "enrollment_count": 5456,
+      "completion_percentage": 77.6,
+      "prerequisites": [
+        "Machine Learning"
+      ],
+      "learning_objectives": [
+        "Understand Machine Learning",
+        "Understand Python",
+        "Understand Data Analysis",
+        "Apply the skill in practical workplace scenarios."
+      ],
+      "mock_resource_url": "https://example.org/mock-igot/course/IGOT-MOCK-038"
+    },
+    {
+      "course_id": "IGOT-MOCK-039",
+      "title": "Data Interpretation for Decision Making",
+      "description": "Mock learning resource for data & analytics skills, designed for the PS-101 prototype.",
+      "competency_ids": [
+        "COMP022",
+        "COMP005"
+      ],
+      "competencies": [
+        "Data Interpretation",
+        "Data Visualization"
+      ],
+      "level": "Intermediate",
+      "duration_hours": 5,
+      "language": "English",
+      "category": "Data & Analytics",
+      "provider": "Mock iGOT Learning Provider",
+      "rating": 3.8,
+      "enrollment_count": 5593,
+      "completion_percentage": 81.3,
+      "prerequisites": [
+        "Data Interpretation"
+      ],
+      "learning_objectives": [
+        "Understand Data Interpretation",
+        "Understand Data Visualization",
+        "Apply the skill in practical workplace scenarios."
+      ],
+      "mock_resource_url": "https://example.org/mock-igot/course/IGOT-MOCK-039"
+    },
+    {
+      "course_id": "IGOT-MOCK-040",
+      "title": "Data Governance in Public Organizations",
+      "description": "Mock learning resource for data governance skills, designed for the PS-101 prototype.",
+      "competency_ids": [
+        "COMP011",
+        "COMP012"
+      ],
+      "competencies": [
+        "Data Governance",
+        "Data Privacy"
+      ],
+      "level": "Intermediate",
+      "duration_hours": 6,
+      "language": "English",
+      "category": "Data Governance",
+      "provider": "Mock iGOT Learning Provider",
+      "rating": 3.9,
+      "enrollment_count": 5730,
+      "completion_percentage": 85.0,
+      "prerequisites": [
+        "Data Governance"
+      ],
+      "learning_objectives": [
+        "Understand Data Governance",
+        "Understand Data Privacy",
+        "Apply the skill in practical workplace scenarios."
+      ],
+      "mock_resource_url": "https://example.org/mock-igot/course/IGOT-MOCK-040"
+    }
+  ],
+  "learners": [
+    {
+      "learner_id": "L001",
+      "name": "Aarav Sharma",
+      "role": "Statistical Analyst",
+      "department": "Data Analytics",
+      "competency_scores": {
+        "Python": 42,
+        "Data Analysis": 48,
+        "Statistics": 61,
+        "Official Statistics": 55,
+        "SQL": 35
+      }
+    },
+    {
+      "learner_id": "L002",
+      "name": "Ananya Singh",
+      "role": "Data Officer",
+      "department": "Statistics",
+      "competency_scores": {
+        "Python": 68,
+        "Data Analysis": 52,
+        "Statistics": 44,
+        "Data Visualization": 38,
+        "Excel": 72
+      }
+    },
+    {
+      "learner_id": "L003",
+      "name": "Rahul Verma",
+      "role": "Junior Analyst",
+      "department": "Research",
+      "competency_scores": {
+        "Python": 31,
+        "Statistics": 46,
+        "Survey Methodology": 40,
+        "Data Collection": 58,
+        "Research Methods": 52
+      }
+    },
+    {
+      "learner_id": "L004",
+      "name": "Priya Gupta",
+      "role": "Data Manager",
+      "department": "Data Governance",
+      "competency_scores": {
+        "Data Governance": 49,
+        "Data Quality": 43,
+        "Data Privacy": 58,
+        "SQL": 67,
+        "Database Management": 61
+      }
+    },
+    {
+      "learner_id": "L005",
+      "name": "Kabir Khan",
+      "role": "IT Analyst",
+      "department": "Technology",
+      "competency_scores": {
+        "API Integration": 37,
+        "Python": 51,
+        "Cyber Security": 45,
+        "Cloud Computing": 39,
+        "Digital Literacy": 70
+      }
+    },
+    {
+      "learner_id": "L006",
+      "name": "Meera Patel",
+      "role": "Statistician",
+      "department": "Official Statistics",
+      "competency_scores": {
+        "Official Statistics": 41,
+        "Statistics": 57,
+        "Survey Methodology": 62,
+        "Data Interpretation": 45,
+        "Data Quality": 53
+      }
+    },
+    {
+      "learner_id": "L007",
+      "name": "Vivek Yadav",
+      "role": "Project Coordinator",
+      "department": "Administration",
+      "competency_scores": {
+        "Project Management": 47,
+        "Communication": 59,
+        "Leadership": 43,
+        "Time Management": 52,
+        "Presentation Skills": 48
+      }
+    },
+    {
+      "learner_id": "L008",
+      "name": "Ishita Roy",
+      "role": "AI Analyst",
+      "department": "Innovation",
+      "competency_scores": {
+        "Machine Learning": 46,
+        "Python": 63,
+        "Artificial Intelligence": 51,
+        "Generative AI": 72,
+        "Ethics in AI": 39
+      }
+    },
+    {
+      "learner_id": "L009",
+      "name": "Rohan Das",
+      "role": "Data Entry Supervisor",
+      "department": "Operations",
+      "competency_scores": {
+        "Excel": 45,
+        "Data Collection": 61,
+        "Digital Literacy": 54,
+        "Data Quality": 42,
+        "Communication": 66
+      }
+    },
+    {
+      "learner_id": "L010",
+      "name": "Sneha Mishra",
+      "role": "Research Officer",
+      "department": "Research",
+      "competency_scores": {
+        "Research Methods": 47,
+        "Survey Methodology": 51,
+        "Statistics": 66,
+        "Data Analysis": 58,
+        "Presentation Skills": 43
+      }
+    }
+  ],
+  "competency_gaps": [
+    {
+      "learner_id": "L001",
+      "competency": "Python",
+      "current_score": 42,
+      "target_score": 75,
+      "gap_score": 33,
+      "severity": "Medium"
+    },
+    {
+      "learner_id": "L001",
+      "competency": "Data Analysis",
+      "current_score": 48,
+      "target_score": 75,
+      "gap_score": 27,
+      "severity": "Medium"
+    },
+    {
+      "learner_id": "L001",
+      "competency": "Official Statistics",
+      "current_score": 55,
+      "target_score": 75,
+      "gap_score": 20,
+      "severity": "Low"
+    },
+    {
+      "learner_id": "L001",
+      "competency": "SQL",
+      "current_score": 35,
+      "target_score": 75,
+      "gap_score": 40,
+      "severity": "High"
+    },
+    {
+      "learner_id": "L002",
+      "competency": "Data Analysis",
+      "current_score": 52,
+      "target_score": 75,
+      "gap_score": 23,
+      "severity": "Medium"
+    },
+    {
+      "learner_id": "L002",
+      "competency": "Statistics",
+      "current_score": 44,
+      "target_score": 75,
+      "gap_score": 31,
+      "severity": "Medium"
+    },
+    {
+      "learner_id": "L002",
+      "competency": "Data Visualization",
+      "current_score": 38,
+      "target_score": 75,
+      "gap_score": 37,
+      "severity": "High"
+    },
+    {
+      "learner_id": "L003",
+      "competency": "Python",
+      "current_score": 31,
+      "target_score": 75,
+      "gap_score": 44,
+      "severity": "High"
+    },
+    {
+      "learner_id": "L003",
+      "competency": "Statistics",
+      "current_score": 46,
+      "target_score": 75,
+      "gap_score": 29,
+      "severity": "Medium"
+    },
+    {
+      "learner_id": "L003",
+      "competency": "Survey Methodology",
+      "current_score": 40,
+      "target_score": 75,
+      "gap_score": 35,
+      "severity": "Medium"
+    },
+    {
+      "learner_id": "L003",
+      "competency": "Data Collection",
+      "current_score": 58,
+      "target_score": 75,
+      "gap_score": 17,
+      "severity": "Low"
+    },
+    {
+      "learner_id": "L003",
+      "competency": "Research Methods",
+      "current_score": 52,
+      "target_score": 75,
+      "gap_score": 23,
+      "severity": "Medium"
+    },
+    {
+      "learner_id": "L004",
+      "competency": "Data Governance",
+      "current_score": 49,
+      "target_score": 75,
+      "gap_score": 26,
+      "severity": "Medium"
+    },
+    {
+      "learner_id": "L004",
+      "competency": "Data Quality",
+      "current_score": 43,
+      "target_score": 75,
+      "gap_score": 32,
+      "severity": "Medium"
+    },
+    {
+      "learner_id": "L004",
+      "competency": "Data Privacy",
+      "current_score": 58,
+      "target_score": 75,
+      "gap_score": 17,
+      "severity": "Low"
+    },
+    {
+      "learner_id": "L005",
+      "competency": "API Integration",
+      "current_score": 37,
+      "target_score": 75,
+      "gap_score": 38,
+      "severity": "High"
+    },
+    {
+      "learner_id": "L005",
+      "competency": "Python",
+      "current_score": 51,
+      "target_score": 75,
+      "gap_score": 24,
+      "severity": "Medium"
+    },
+    {
+      "learner_id": "L005",
+      "competency": "Cyber Security",
+      "current_score": 45,
+      "target_score": 75,
+      "gap_score": 30,
+      "severity": "Medium"
+    },
+    {
+      "learner_id": "L005",
+      "competency": "Cloud Computing",
+      "current_score": 39,
+      "target_score": 75,
+      "gap_score": 36,
+      "severity": "High"
+    },
+    {
+      "learner_id": "L006",
+      "competency": "Official Statistics",
+      "current_score": 41,
+      "target_score": 75,
+      "gap_score": 34,
+      "severity": "Medium"
+    },
+    {
+      "learner_id": "L006",
+      "competency": "Statistics",
+      "current_score": 57,
+      "target_score": 75,
+      "gap_score": 18,
+      "severity": "Low"
+    },
+    {
+      "learner_id": "L006",
+      "competency": "Data Interpretation",
+      "current_score": 45,
+      "target_score": 75,
+      "gap_score": 30,
+      "severity": "Medium"
+    },
+    {
+      "learner_id": "L006",
+      "competency": "Data Quality",
+      "current_score": 53,
+      "target_score": 75,
+      "gap_score": 22,
+      "severity": "Medium"
+    },
+    {
+      "learner_id": "L007",
+      "competency": "Project Management",
+      "current_score": 47,
+      "target_score": 75,
+      "gap_score": 28,
+      "severity": "Medium"
+    },
+    {
+      "learner_id": "L007",
+      "competency": "Communication",
+      "current_score": 59,
+      "target_score": 75,
+      "gap_score": 16,
+      "severity": "Low"
+    },
+    {
+      "learner_id": "L007",
+      "competency": "Leadership",
+      "current_score": 43,
+      "target_score": 75,
+      "gap_score": 32,
+      "severity": "Medium"
+    },
+    {
+      "learner_id": "L007",
+      "competency": "Time Management",
+      "current_score": 52,
+      "target_score": 75,
+      "gap_score": 23,
+      "severity": "Medium"
+    },
+    {
+      "learner_id": "L007",
+      "competency": "Presentation Skills",
+      "current_score": 48,
+      "target_score": 75,
+      "gap_score": 27,
+      "severity": "Medium"
+    },
+    {
+      "learner_id": "L008",
+      "competency": "Machine Learning",
+      "current_score": 46,
+      "target_score": 75,
+      "gap_score": 29,
+      "severity": "Medium"
+    },
+    {
+      "learner_id": "L008",
+      "competency": "Artificial Intelligence",
+      "current_score": 51,
+      "target_score": 75,
+      "gap_score": 24,
+      "severity": "Medium"
+    },
+    {
+      "learner_id": "L008",
+      "competency": "Ethics in AI",
+      "current_score": 39,
+      "target_score": 75,
+      "gap_score": 36,
+      "severity": "High"
+    },
+    {
+      "learner_id": "L009",
+      "competency": "Excel",
+      "current_score": 45,
+      "target_score": 75,
+      "gap_score": 30,
+      "severity": "Medium"
+    },
+    {
+      "learner_id": "L009",
+      "competency": "Digital Literacy",
+      "current_score": 54,
+      "target_score": 75,
+      "gap_score": 21,
+      "severity": "Medium"
+    },
+    {
+      "learner_id": "L009",
+      "competency": "Data Quality",
+      "current_score": 42,
+      "target_score": 75,
+      "gap_score": 33,
+      "severity": "Medium"
+    },
+    {
+      "learner_id": "L010",
+      "competency": "Research Methods",
+      "current_score": 47,
+      "target_score": 75,
+      "gap_score": 28,
+      "severity": "Medium"
+    },
+    {
+      "learner_id": "L010",
+      "competency": "Survey Methodology",
+      "current_score": 51,
+      "target_score": 75,
+      "gap_score": 24,
+      "severity": "Medium"
+    },
+    {
+      "learner_id": "L010",
+      "competency": "Data Analysis",
+      "current_score": 58,
+      "target_score": 75,
+      "gap_score": 17,
+      "severity": "Low"
+    },
+    {
+      "learner_id": "L010",
+      "competency": "Presentation Skills",
+      "current_score": 43,
+      "target_score": 75,
+      "gap_score": 32,
+      "severity": "Medium"
+    }
+  ],
+  "enrollments": [
+    {
+      "enrollment_id": "E001",
+      "learner_id": "L001",
+      "course_id": "IGOT-MOCK-002",
+      "status": "In Progress",
+      "progress_percentage": 65
+    },
+    {
+      "enrollment_id": "E002",
+      "learner_id": "L001",
+      "course_id": "IGOT-MOCK-003",
+      "status": "Completed",
+      "progress_percentage": 100
+    },
+    {
+      "enrollment_id": "E003",
+      "learner_id": "L002",
+      "course_id": "IGOT-MOCK-005",
+      "status": "In Progress",
+      "progress_percentage": 40
+    },
+    {
+      "enrollment_id": "E004",
+      "learner_id": "L003",
+      "course_id": "IGOT-MOCK-022",
+      "status": "In Progress",
+      "progress_percentage": 70
+    },
+    {
+      "enrollment_id": "E005",
+      "learner_id": "L004",
+      "course_id": "IGOT-MOCK-011",
+      "status": "Completed",
+      "progress_percentage": 100
+    },
+    {
+      "enrollment_id": "E006",
+      "learner_id": "L005",
+      "course_id": "IGOT-MOCK-026",
+      "status": "In Progress",
+      "progress_percentage": 35
+    },
+    {
+      "enrollment_id": "E007",
+      "learner_id": "L006",
+      "course_id": "IGOT-MOCK-036",
+      "status": "In Progress",
+      "progress_percentage": 55
+    },
+    {
+      "enrollment_id": "E008",
+      "learner_id": "L008",
+      "course_id": "IGOT-MOCK-039",
+      "status": "Completed",
+      "progress_percentage": 100
+    }
+  ],
+  "quiz_results": [
+    {
+      "result_id": "Q001",
+      "learner_id": "L001",
+      "course_id": "IGOT-MOCK-002",
+      "score": 72,
+      "total_questions": 10,
+      "correct_answers": 7
+    },
+    {
+      "result_id": "Q002",
+      "learner_id": "L002",
+      "course_id": "IGOT-MOCK-005",
+      "score": 68,
+      "total_questions": 10,
+      "correct_answers": 7
+    },
+    {
+      "result_id": "Q003",
+      "learner_id": "L003",
+      "course_id": "IGOT-MOCK-022",
+      "score": 81,
+      "total_questions": 10,
+      "correct_answers": 8
+    },
+    {
+      "result_id": "Q004",
+      "learner_id": "L004",
+      "course_id": "IGOT-MOCK-011",
+      "score": 88,
+      "total_questions": 10,
+      "correct_answers": 9
+    },
+    {
+      "result_id": "Q005",
+      "learner_id": "L008",
+      "course_id": "IGOT-MOCK-039",
+      "score": 92,
+      "total_questions": 10,
+      "correct_answers": 9
+    }
+  ]
+}
