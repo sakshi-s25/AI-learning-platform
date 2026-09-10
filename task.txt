@@ -1,0 +1,2 @@
+REST API - JSON
+GET/users/1- get the user with ID 1

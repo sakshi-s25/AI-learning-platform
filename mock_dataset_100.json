@@ -1,0 +1,4352 @@
+{
+  "dataset_name": "PS101_Mock_User_Competency_Dataset",
+  "description": "Synthetic/mock learner dataset for demonstrating PS 101 competency-gap analysis, personalized training recommendations, and iGOT-ready workflows. Not real government data.",
+  "total_users": 100,
+  "users": [
+    {
+      "id": 1,
+      "name": "Aarav Sharma",
+      "role": "Survey Officer",
+      "department": "Official Statistical System",
+      "skills": [
+        {
+          "name": "Statistical Inference",
+          "proficiency_score": 58
+        },
+        {
+          "name": "Survey Methodology",
+          "proficiency_score": 87
+        },
+        {
+          "name": "GIS",
+          "proficiency_score": 68
+        },
+        {
+          "name": "Python",
+          "proficiency_score": 93
+        },
+        {
+          "name": "SQL",
+          "proficiency_score": 69
+        }
+      ],
+      "skills_to_work_on": [
+        {
+          "skill": "Statistical Inference",
+          "current_score": 58,
+          "target_score": 83,
+          "priority": "High"
+        }
+      ],
+      "recommended_training": [
+        "Statistical Inference"
+      ],
+      "learning_status": "In Progress",
+      "overall_progress": 81
+    },
+    {
+      "id": 2,
+      "name": "Aditya Verma",
+      "role": "Data Analyst",
+      "department": "Official Statistical System",
+      "skills": [
+        {
+          "name": "Data Analysis",
+          "proficiency_score": 83
+        },
+        {
+          "name": "Data Visualization",
+          "proficiency_score": 89
+        },
+        {
+          "name": "Survey Methodology",
+          "proficiency_score": 78
+        },
+        {
+          "name": "Sampling Techniques",
+          "proficiency_score": 67
+        },
+        {
+          "name": "Excel",
+          "proficiency_score": 85
+        }
+      ],
+      "skills_to_work_on": [
+        {
+          "skill": "Sampling Techniques",
+          "current_score": 67,
+          "target_score": 90,
+          "priority": "Medium"
+        }
+      ],
+      "recommended_training": [
+        "Sampling Techniques"
+      ],
+      "learning_status": "In Progress",
+      "overall_progress": 79
+    },
+    {
+      "id": 3,
+      "name": "Ananya Singh",
+      "role": "Survey Officer",
+      "department": "Official Statistical System",
+      "skills": [
+        {
+          "name": "Survey Methodology",
+          "proficiency_score": 68
+        },
+        {
+          "name": "Data Analysis",
+          "proficiency_score": 62
+        },
+        {
+          "name": "Machine Learning",
+          "proficiency_score": 94
+        },
+        {
+          "name": "SQL",
+          "proficiency_score": 76
+        },
+        {
+          "name": "Data Visualization",
+          "proficiency_score": 72
+        }
+      ],
+      "skills_to_work_on": [
+        {
+          "skill": "Data Analysis",
+          "current_score": 62,
+          "target_score": 83,
+          "priority": "High"
+        }
+      ],
+      "recommended_training": [
+        "Data Analysis Fundamentals"
+      ],
+      "learning_status": "In Progress",
+      "overall_progress": 34
+    },
+    {
+      "id": 4,
+      "name": "Arjun Kumar",
+      "role": "Data Management Officer",
+      "department": "Official Statistical System",
+      "skills": [
+        {
+          "name": "Machine Learning",
+          "proficiency_score": 68
+        },
+        {
+          "name": "Data Quality Management",
+          "proficiency_score": 89
+        },
+        {
+          "name": "Excel",
+          "proficiency_score": 61
+        },
+        {
+          "name": "Statistics",
+          "proficiency_score": 77
+        },
+        {
+          "name": "SQL",
+          "proficiency_score": 56
+        }
+      ],
+      "skills_to_work_on": [
+        {
+          "skill": "SQL",
+          "current_score": 56,
+          "target_score": 85,
+          "priority": "High"
+        }
+      ],
+      "recommended_training": [
+        "SQL for Data Management"
+      ],
+      "learning_status": "Not Started",
+      "overall_progress": 58
+    },
+    {
+      "id": 5,
+      "name": "Aditi Mishra",
+      "role": "Statistical Assistant",
+      "department": "Official Statistical System",
+      "skills": [
+        {
+          "name": "Statistical Inference",
+          "proficiency_score": 72
+        },
+        {
+          "name": "Sampling Techniques",
+          "proficiency_score": 59
+        },
+        {
+          "name": "Statistics",
+          "proficiency_score": 64
+        },
+        {
+          "name": "Machine Learning",
+          "proficiency_score": 80
+        },
+        {
+          "name": "Data Quality Management",
+          "proficiency_score": 78
+        }
+      ],
+      "skills_to_work_on": [
+        {
+          "skill": "Sampling Techniques",
+          "current_score": 59,
+          "target_score": 87,
+          "priority": "High"
+        },
+        {
+          "skill": "Statistics",
+          "current_score": 64,
+          "target_score": 82,
+          "priority": "High"
+        }
+      ],
+      "recommended_training": [
+        "Sampling Techniques",
+        "Advanced Statistics"
+      ],
+      "learning_status": "In Progress",
+      "overall_progress": 90
+    },
+    {
+      "id": 6,
+      "name": "Rohan Gupta",
+      "role": "Survey Officer",
+      "department": "Official Statistical System",
+      "skills": [
+        {
+          "name": "Data Visualization",
+          "proficiency_score": 59
+        },
+        {
+          "name": "Sampling Techniques",
+          "proficiency_score": 57
+        },
+        {
+          "name": "GIS",
+          "proficiency_score": 91
+        },
+        {
+          "name": "Statistics",
+          "proficiency_score": 77
+        },
+        {
+          "name": "Data Analysis",
+          "proficiency_score": 89
+        }
+      ],
+      "skills_to_work_on": [
+        {
+          "skill": "Sampling Techniques",
+          "current_score": 57,
+          "target_score": 81,
+          "priority": "High"
+        },
+        {
+          "skill": "Data Visualization",
+          "current_score": 59,
+          "target_score": 90,
+          "priority": "High"
+        }
+      ],
+      "recommended_training": [
+        "Sampling Techniques",
+        "Data Visualization with Python"
+      ],
+      "learning_status": "Completed",
+      "overall_progress": 83
+    },
+    {
+      "id": 7,
+      "name": "Priya Yadav",
+      "role": "Statistical Officer",
+      "department": "Official Statistical System",
+      "skills": [
+        {
+          "name": "Data Quality Management",
+          "proficiency_score": 63
+        },
+        {
+          "name": "Sampling Techniques",
+          "proficiency_score": 60
+        },
+        {
+          "name": "Excel",
+          "proficiency_score": 64
+        },
+        {
+          "name": "Survey Methodology",
+          "proficiency_score": 74
+        },
+        {
+          "name": "SQL",
+          "proficiency_score": 76
+        }
+      ],
+      "skills_to_work_on": [
+        {
+          "skill": "Sampling Techniques",
+          "current_score": 60,
+          "target_score": 80,
+          "priority": "High"
+        }
+      ],
+      "recommended_training": [
+        "Sampling Techniques"
+      ],
+      "learning_status": "Completed",
+      "overall_progress": 69
+    },
+    {
+      "id": 8,
+      "name": "Rahul Singh",
+      "role": "Survey Officer",
+      "department": "Official Statistical System",
+      "skills": [
+        {
+          "name": "SQL",
+          "proficiency_score": 60
+        },
+        {
+          "name": "Statistics",
+          "proficiency_score": 72
+        },
+        {
+          "name": "Survey Methodology",
+          "proficiency_score": 64
+        },
+        {
+          "name": "Data Visualization",
+          "proficiency_score": 71
+        },
+        {
+          "name": "Python",
+          "proficiency_score": 84
+        }
+      ],
+      "skills_to_work_on": [
+        {
+          "skill": "SQL",
+          "current_score": 60,
+          "target_score": 81,
+          "priority": "High"
+        }
+      ],
+      "recommended_training": [
+        "SQL for Data Management"
+      ],
+      "learning_status": "Completed",
+      "overall_progress": 65
+    },
+    {
+      "id": 9,
+      "name": "Sneha Patel",
+      "role": "Statistical Assistant",
+      "department": "Official Statistical System",
+      "skills": [
+        {
+          "name": "Survey Methodology",
+          "proficiency_score": 55
+        },
+        {
+          "name": "Data Analysis",
+          "proficiency_score": 95
+        },
+        {
+          "name": "Data Visualization",
+          "proficiency_score": 80
+        },
+        {
+          "name": "Sampling Techniques",
+          "proficiency_score": 94
+        },
+        {
+          "name": "Statistics",
+          "proficiency_score": 84
+        }
+      ],
+      "skills_to_work_on": [
+        {
+          "skill": "Survey Methodology",
+          "current_score": 55,
+          "target_score": 80,
+          "priority": "High"
+        },
+        {
+          "skill": "Data Visualization",
+          "current_score": 80,
+          "target_score": 85,
+          "priority": "Medium"
+        }
+      ],
+      "recommended_training": [
+        "Survey Methodology",
+        "Data Visualization with Python"
+      ],
+      "learning_status": "Not Started",
+      "overall_progress": 59
+    },
+    {
+      "id": 10,
+      "name": "Vivek Tiwari",
+      "role": "Research Officer",
+      "department": "Official Statistical System",
+      "skills": [
+        {
+          "name": "SQL",
+          "proficiency_score": 76
+        },
+        {
+          "name": "Data Quality Management",
+          "proficiency_score": 56
+        },
+        {
+          "name": "Survey Methodology",
+          "proficiency_score": 63
+        },
+        {
+          "name": "GIS",
+          "proficiency_score": 73
+        },
+        {
+          "name": "Python",
+          "proficiency_score": 77
+        }
+      ],
+      "skills_to_work_on": [
+        {
+          "skill": "Data Quality Management",
+          "current_score": 56,
+          "target_score": 86,
+          "priority": "High"
+        },
+        {
+          "skill": "Survey Methodology",
+          "current_score": 63,
+          "target_score": 86,
+          "priority": "High"
+        }
+      ],
+      "recommended_training": [
+        "Data Quality Management",
+        "Survey Methodology"
+      ],
+      "learning_status": "Completed",
+      "overall_progress": 31
+    },
+    {
+      "id": 11,
+      "name": "Neha Sharma",
+      "role": "Statistical Officer",
+      "department": "Official Statistical System",
+      "skills": [
+        {
+          "name": "Excel",
+          "proficiency_score": 64
+        },
+        {
+          "name": "Survey Methodology",
+          "proficiency_score": 62
+        },
+        {
+          "name": "GIS",
+          "proficiency_score": 64
+        },
+        {
+          "name": "Data Analysis",
+          "proficiency_score": 76
+        },
+        {
+          "name": "Data Quality Management",
+          "proficiency_score": 62
+        }
+      ],
+      "skills_to_work_on": [
+        {
+          "skill": "Survey Methodology",
+          "current_score": 62,
+          "target_score": 87,
+          "priority": "High"
+        }
+      ],
+      "recommended_training": [
+        "Survey Methodology"
+      ],
+      "learning_status": "Completed",
+      "overall_progress": 50
+    },
+    {
+      "id": 12,
+      "name": "Karan Verma",
+      "role": "Data Management Officer",
+      "department": "Official Statistical System",
+      "skills": [
+        {
+          "name": "Data Quality Management",
+          "proficiency_score": 63
+        },
+        {
+          "name": "Excel",
+          "proficiency_score": 84
+        },
+        {
+          "name": "Python",
+          "proficiency_score": 89
+        },
+        {
+          "name": "GIS",
+          "proficiency_score": 90
+        },
+        {
+          "name": "Survey Methodology",
+          "proficiency_score": 75
+        }
+      ],
+      "skills_to_work_on": [
+        {
+          "skill": "Data Quality Management",
+          "current_score": 63,
+          "target_score": 84,
+          "priority": "High"
+        }
+      ],
+      "recommended_training": [
+        "Data Quality Management"
+      ],
+      "learning_status": "Completed",
+      "overall_progress": 57
+    },
+    {
+      "id": 13,
+      "name": "Pooja Singh",
+      "role": "Survey Officer",
+      "department": "Official Statistical System",
+      "skills": [
+        {
+          "name": "Survey Methodology",
+          "proficiency_score": 57
+        },
+        {
+          "name": "Machine Learning",
+          "proficiency_score": 70
+        },
+        {
+          "name": "Excel",
+          "proficiency_score": 58
+        },
+        {
+          "name": "SQL",
+          "proficiency_score": 92
+        },
+        {
+          "name": "Data Visualization",
+          "proficiency_score": 76
+        }
+      ],
+      "skills_to_work_on": [
+        {
+          "skill": "Survey Methodology",
+          "current_score": 57,
+          "target_score": 87,
+          "priority": "High"
+        },
+        {
+          "skill": "Excel",
+          "current_score": 58,
+          "target_score": 90,
+          "priority": "High"
+        }
+      ],
+      "recommended_training": [
+        "Survey Methodology",
+        "Advanced Excel for Data Analysis"
+      ],
+      "learning_status": "Not Started",
+      "overall_progress": 59
+    },
+    {
+      "id": 14,
+      "name": "Aman Gupta",
+      "role": "Survey Officer",
+      "department": "Official Statistical System",
+      "skills": [
+        {
+          "name": "GIS",
+          "proficiency_score": 55
+        },
+        {
+          "name": "Survey Methodology",
+          "proficiency_score": 81
+        },
+        {
+          "name": "Statistics",
+          "proficiency_score": 83
+        },
+        {
+          "name": "SQL",
+          "proficiency_score": 72
+        },
+        {
+          "name": "Statistical Inference",
+          "proficiency_score": 94
+        }
+      ],
+      "skills_to_work_on": [
+        {
+          "skill": "GIS",
+          "current_score": 55,
+          "target_score": 90,
+          "priority": "High"
+        }
+      ],
+      "recommended_training": [
+        "GIS for Statistical Applications"
+      ],
+      "learning_status": "Not Started",
+      "overall_progress": 29
+    },
+    {
+      "id": 15,
+      "name": "Simran Kaur",
+      "role": "Survey Officer",
+      "department": "Official Statistical System",
+      "skills": [
+        {
+          "name": "Excel",
+          "proficiency_score": 94
+        },
+        {
+          "name": "Data Visualization",
+          "proficiency_score": 83
+        },
+        {
+          "name": "Statistical Inference",
+          "proficiency_score": 76
+        },
+        {
+          "name": "Data Analysis",
+          "proficiency_score": 88
+        },
+        {
+          "name": "GIS",
+          "proficiency_score": 59
+        }
+      ],
+      "skills_to_work_on": [
+        {
+          "skill": "GIS",
+          "current_score": 59,
+          "target_score": 86,
+          "priority": "High"
+        }
+      ],
+      "recommended_training": [
+        "GIS for Statistical Applications"
+      ],
+      "learning_status": "Not Started",
+      "overall_progress": 58
+    },
+    {
+      "id": 16,
+      "name": "Nikhil Kumar",
+      "role": "Data Management Officer",
+      "department": "Official Statistical System",
+      "skills": [
+        {
+          "name": "Statistics",
+          "proficiency_score": 69
+        },
+        {
+          "name": "Survey Methodology",
+          "proficiency_score": 67
+        },
+        {
+          "name": "Python",
+          "proficiency_score": 65
+        },
+        {
+          "name": "Data Quality Management",
+          "proficiency_score": 66
+        },
+        {
+          "name": "Data Analysis",
+          "proficiency_score": 92
+        }
+      ],
+      "skills_to_work_on": [
+        {
+          "skill": "Python",
+          "current_score": 65,
+          "target_score": 83,
+          "priority": "Medium"
+        },
+        {
+          "skill": "Data Quality Management",
+          "current_score": 66,
+          "target_score": 87,
+          "priority": "Medium"
+        }
+      ],
+      "recommended_training": [
+        "Python for Data Analysis",
+        "Data Quality Management"
+      ],
+      "learning_status": "Not Started",
+      "overall_progress": 29
+    },
+    {
+      "id": 17,
+      "name": "Riya Mishra",
+      "role": "Statistical Assistant",
+      "department": "Official Statistical System",
+      "skills": [
+        {
+          "name": "Survey Methodology",
+          "proficiency_score": 92
+        },
+        {
+          "name": "GIS",
+          "proficiency_score": 88
+        },
+        {
+          "name": "Data Quality Management",
+          "proficiency_score": 55
+        },
+        {
+          "name": "Excel",
+          "proficiency_score": 76
+        },
+        {
+          "name": "Data Analysis",
+          "proficiency_score": 87
+        }
+      ],
+      "skills_to_work_on": [
+        {
+          "skill": "Data Quality Management",
+          "current_score": 55,
+          "target_score": 90,
+          "priority": "High"
+        }
+      ],
+      "recommended_training": [
+        "Data Quality Management"
+      ],
+      "learning_status": "In Progress",
+      "overall_progress": 41
+    },
+    {
+      "id": 18,
+      "name": "Ayush Yadav",
+      "role": "Data Management Officer",
+      "department": "Official Statistical System",
+      "skills": [
+        {
+          "name": "Data Analysis",
+          "proficiency_score": 72
+        },
+        {
+          "name": "Excel",
+          "proficiency_score": 80
+        },
+        {
+          "name": "Statistics",
+          "proficiency_score": 63
+        },
+        {
+          "name": "SQL",
+          "proficiency_score": 58
+        },
+        {
+          "name": "Data Quality Management",
+          "proficiency_score": 62
+        }
+      ],
+      "skills_to_work_on": [
+        {
+          "skill": "SQL",
+          "current_score": 58,
+          "target_score": 88,
+          "priority": "High"
+        }
+      ],
+      "recommended_training": [
+        "SQL for Data Management"
+      ],
+      "learning_status": "Not Started",
+      "overall_progress": 37
+    },
+    {
+      "id": 19,
+      "name": "Kavya Singh",
+      "role": "Statistical Officer",
+      "department": "Official Statistical System",
+      "skills": [
+        {
+          "name": "Data Visualization",
+          "proficiency_score": 90
+        },
+        {
+          "name": "Excel",
+          "proficiency_score": 79
+        },
+        {
+          "name": "Survey Methodology",
+          "proficiency_score": 64
+        },
+        {
+          "name": "Sampling Techniques",
+          "proficiency_score": 95
+        },
+        {
+          "name": "Machine Learning",
+          "proficiency_score": 76
+        }
+      ],
+      "skills_to_work_on": [
+        {
+          "skill": "Survey Methodology",
+          "current_score": 64,
+          "target_score": 83,
+          "priority": "High"
+        },
+        {
+          "skill": "Machine Learning",
+          "current_score": 76,
+          "target_score": 84,
+          "priority": "Medium"
+        }
+      ],
+      "recommended_training": [
+        "Survey Methodology",
+        "Machine Learning Fundamentals"
+      ],
+      "learning_status": "In Progress",
+      "overall_progress": 55
+    },
+    {
+      "id": 20,
+      "name": "Mohit Patel",
+      "role": "Research Officer",
+      "department": "Official Statistical System",
+      "skills": [
+        {
+          "name": "SQL",
+          "proficiency_score": 93
+        },
+        {
+          "name": "Survey Methodology",
+          "proficiency_score": 65
+        },
+        {
+          "name": "Data Quality Management",
+          "proficiency_score": 86
+        },
+        {
+          "name": "Machine Learning",
+          "proficiency_score": 83
+        },
+        {
+          "name": "Sampling Techniques",
+          "proficiency_score": 86
+        }
+      ],
+      "skills_to_work_on": [
+        {
+          "skill": "Survey Methodology",
+          "current_score": 65,
+          "target_score": 80,
+          "priority": "Medium"
+        }
+      ],
+      "recommended_training": [
+        "Survey Methodology"
+      ],
+      "learning_status": "Not Started",
+      "overall_progress": 67
+    },
+    {
+      "id": 21,
+      "name": "Sakshi Verma",
+      "role": "Data Management Officer",
+      "department": "Official Statistical System",
+      "skills": [
+        {
+          "name": "Statistics",
+          "proficiency_score": 57
+        },
+        {
+          "name": "Survey Methodology",
+          "proficiency_score": 79
+        },
+        {
+          "name": "Data Visualization",
+          "proficiency_score": 63
+        },
+        {
+          "name": "GIS",
+          "proficiency_score": 71
+        },
+        {
+          "name": "Statistical Inference",
+          "proficiency_score": 92
+        }
+      ],
+      "skills_to_work_on": [
+        {
+          "skill": "Statistics",
+          "current_score": 57,
+          "target_score": 90,
+          "priority": "High"
+        },
+        {
+          "skill": "Data Visualization",
+          "current_score": 63,
+          "target_score": 90,
+          "priority": "High"
+        }
+      ],
+      "recommended_training": [
+        "Advanced Statistics",
+        "Data Visualization with Python"
+      ],
+      "learning_status": "Completed",
+      "overall_progress": 72
+    },
+    {
+      "id": 22,
+      "name": "Harsh Sharma",
+      "role": "Statistical Officer",
+      "department": "Official Statistical System",
+      "skills": [
+        {
+          "name": "SQL",
+          "proficiency_score": 74
+        },
+        {
+          "name": "Statistical Inference",
+          "proficiency_score": 60
+        },
+        {
+          "name": "Data Visualization",
+          "proficiency_score": 66
+        },
+        {
+          "name": "Statistics",
+          "proficiency_score": 56
+        },
+        {
+          "name": "Excel",
+          "proficiency_score": 78
+        }
+      ],
+      "skills_to_work_on": [
+        {
+          "skill": "Statistics",
+          "current_score": 56,
+          "target_score": 86,
+          "priority": "High"
+        }
+      ],
+      "recommended_training": [
+        "Advanced Statistics"
+      ],
+      "learning_status": "Not Started",
+      "overall_progress": 70
+    },
+    {
+      "id": 23,
+      "name": "Ishita Gupta",
+      "role": "Data Management Officer",
+      "department": "Official Statistical System",
+      "skills": [
+        {
+          "name": "Statistics",
+          "proficiency_score": 86
+        },
+        {
+          "name": "Survey Methodology",
+          "proficiency_score": 80
+        },
+        {
+          "name": "Excel",
+          "proficiency_score": 61
+        },
+        {
+          "name": "Machine Learning",
+          "proficiency_score": 66
+        },
+        {
+          "name": "Sampling Techniques",
+          "proficiency_score": 81
+        }
+      ],
+      "skills_to_work_on": [
+        {
+          "skill": "Excel",
+          "current_score": 61,
+          "target_score": 87,
+          "priority": "High"
+        },
+        {
+          "skill": "Machine Learning",
+          "current_score": 66,
+          "target_score": 84,
+          "priority": "Medium"
+        }
+      ],
+      "recommended_training": [
+        "Advanced Excel for Data Analysis",
+        "Machine Learning Fundamentals"
+      ],
+      "learning_status": "In Progress",
+      "overall_progress": 52
+    },
+    {
+      "id": 24,
+      "name": "Rajat Singh",
+      "role": "Statistical Assistant",
+      "department": "Official Statistical System",
+      "skills": [
+        {
+          "name": "Data Quality Management",
+          "proficiency_score": 65
+        },
+        {
+          "name": "Statistical Inference",
+          "proficiency_score": 88
+        },
+        {
+          "name": "Data Visualization",
+          "proficiency_score": 86
+        },
+        {
+          "name": "Machine Learning",
+          "proficiency_score": 74
+        },
+        {
+          "name": "Sampling Techniques",
+          "proficiency_score": 69
+        }
+      ],
+      "skills_to_work_on": [
+        {
+          "skill": "Data Quality Management",
+          "current_score": 65,
+          "target_score": 80,
+          "priority": "Medium"
+        }
+      ],
+      "recommended_training": [
+        "Data Quality Management"
+      ],
+      "learning_status": "Not Started",
+      "overall_progress": 38
+    },
+    {
+      "id": 25,
+      "name": "Meera Kumar",
+      "role": "Survey Officer",
+      "department": "Official Statistical System",
+      "skills": [
+        {
+          "name": "Excel",
+          "proficiency_score": 95
+        },
+        {
+          "name": "Statistics",
+          "proficiency_score": 78
+        },
+        {
+          "name": "SQL",
+          "proficiency_score": 94
+        },
+        {
+          "name": "Data Visualization",
+          "proficiency_score": 73
+        },
+        {
+          "name": "Statistical Inference",
+          "proficiency_score": 63
+        }
+      ],
+      "skills_to_work_on": [
+        {
+          "skill": "Statistical Inference",
+          "current_score": 63,
+          "target_score": 83,
+          "priority": "High"
+        }
+      ],
+      "recommended_training": [
+        "Statistical Inference"
+      ],
+      "learning_status": "Not Started",
+      "overall_progress": 81
+    },
+    {
+      "id": 26,
+      "name": "Yash Tiwari",
+      "role": "Survey Officer",
+      "department": "Official Statistical System",
+      "skills": [
+        {
+          "name": "Excel",
+          "proficiency_score": 61
+        },
+        {
+          "name": "Data Analysis",
+          "proficiency_score": 89
+        },
+        {
+          "name": "Machine Learning",
+          "proficiency_score": 58
+        },
+        {
+          "name": "Data Quality Management",
+          "proficiency_score": 84
+        },
+        {
+          "name": "SQL",
+          "proficiency_score": 72
+        }
+      ],
+      "skills_to_work_on": [
+        {
+          "skill": "Machine Learning",
+          "current_score": 58,
+          "target_score": 82,
+          "priority": "High"
+        }
+      ],
+      "recommended_training": [
+        "Machine Learning Fundamentals"
+      ],
+      "learning_status": "Not Started",
+      "overall_progress": 54
+    },
+    {
+      "id": 27,
+      "name": "Nandini Mishra",
+      "role": "Data Analyst",
+      "department": "Official Statistical System",
+      "skills": [
+        {
+          "name": "Excel",
+          "proficiency_score": 66
+        },
+        {
+          "name": "GIS",
+          "proficiency_score": 58
+        },
+        {
+          "name": "Data Quality Management",
+          "proficiency_score": 78
+        },
+        {
+          "name": "Machine Learning",
+          "proficiency_score": 92
+        },
+        {
+          "name": "Statistical Inference",
+          "proficiency_score": 61
+        }
+      ],
+      "skills_to_work_on": [
+        {
+          "skill": "GIS",
+          "current_score": 58,
+          "target_score": 84,
+          "priority": "High"
+        }
+      ],
+      "recommended_training": [
+        "GIS for Statistical Applications"
+      ],
+      "learning_status": "Completed",
+      "overall_progress": 45
+    },
+    {
+      "id": 28,
+      "name": "Abhishek Yadav",
+      "role": "Statistical Assistant",
+      "department": "Official Statistical System",
+      "skills": [
+        {
+          "name": "GIS",
+          "proficiency_score": 90
+        },
+        {
+          "name": "Sampling Techniques",
+          "proficiency_score": 91
+        },
+        {
+          "name": "Excel",
+          "proficiency_score": 60
+        },
+        {
+          "name": "Data Visualization",
+          "proficiency_score": 67
+        },
+        {
+          "name": "Survey Methodology",
+          "proficiency_score": 63
+        }
+      ],
+      "skills_to_work_on": [
+        {
+          "skill": "Excel",
+          "current_score": 60,
+          "target_score": 83,
+          "priority": "High"
+        }
+      ],
+      "recommended_training": [
+        "Advanced Excel for Data Analysis"
+      ],
+      "learning_status": "In Progress",
+      "overall_progress": 40
+    },
+    {
+      "id": 29,
+      "name": "Tanya Singh",
+      "role": "Survey Officer",
+      "department": "Official Statistical System",
+      "skills": [
+        {
+          "name": "Statistical Inference",
+          "proficiency_score": 66
+        },
+        {
+          "name": "Sampling Techniques",
+          "proficiency_score": 63
+        },
+        {
+          "name": "SQL",
+          "proficiency_score": 66
+        },
+        {
+          "name": "Excel",
+          "proficiency_score": 65
+        },
+        {
+          "name": "Data Visualization",
+          "proficiency_score": 86
+        }
+      ],
+      "skills_to_work_on": [
+        {
+          "skill": "Sampling Techniques",
+          "current_score": 63,
+          "target_score": 80,
+          "priority": "High"
+        }
+      ],
+      "recommended_training": [
+        "Sampling Techniques"
+      ],
+      "learning_status": "Not Started",
+      "overall_progress": 70
+    },
+    {
+      "id": 30,
+      "name": "Varun Gupta",
+      "role": "Data Management Officer",
+      "department": "Official Statistical System",
+      "skills": [
+        {
+          "name": "Data Analysis",
+          "proficiency_score": 55
+        },
+        {
+          "name": "Statistical Inference",
+          "proficiency_score": 75
+        },
+        {
+          "name": "Data Visualization",
+          "proficiency_score": 57
+        },
+        {
+          "name": "Sampling Techniques",
+          "proficiency_score": 64
+        },
+        {
+          "name": "Statistics",
+          "proficiency_score": 72
+        }
+      ],
+      "skills_to_work_on": [
+        {
+          "skill": "Data Analysis",
+          "current_score": 55,
+          "target_score": 82,
+          "priority": "High"
+        }
+      ],
+      "recommended_training": [
+        "Data Analysis Fundamentals"
+      ],
+      "learning_status": "Completed",
+      "overall_progress": 77
+    },
+    {
+      "id": 31,
+      "name": "Shreya Patel",
+      "role": "Statistical Assistant",
+      "department": "Official Statistical System",
+      "skills": [
+        {
+          "name": "Survey Methodology",
+          "proficiency_score": 92
+        },
+        {
+          "name": "Data Quality Management",
+          "proficiency_score": 76
+        },
+        {
+          "name": "Excel",
+          "proficiency_score": 77
+        },
+        {
+          "name": "Python",
+          "proficiency_score": 79
+        },
+        {
+          "name": "Sampling Techniques",
+          "proficiency_score": 75
+        }
+      ],
+      "skills_to_work_on": [
+        {
+          "skill": "Sampling Techniques",
+          "current_score": 75,
+          "target_score": 84,
+          "priority": "Medium"
+        }
+      ],
+      "recommended_training": [
+        "Sampling Techniques"
+      ],
+      "learning_status": "In Progress",
+      "overall_progress": 61
+    },
+    {
+      "id": 32,
+      "name": "Manish Kumar",
+      "role": "Data Analyst",
+      "department": "Official Statistical System",
+      "skills": [
+        {
+          "name": "GIS",
+          "proficiency_score": 79
+        },
+        {
+          "name": "Machine Learning",
+          "proficiency_score": 61
+        },
+        {
+          "name": "Sampling Techniques",
+          "proficiency_score": 88
+        },
+        {
+          "name": "Statistical Inference",
+          "proficiency_score": 82
+        },
+        {
+          "name": "Statistics",
+          "proficiency_score": 66
+        }
+      ],
+      "skills_to_work_on": [
+        {
+          "skill": "Machine Learning",
+          "current_score": 61,
+          "target_score": 87,
+          "priority": "High"
+        }
+      ],
+      "recommended_training": [
+        "Machine Learning Fundamentals"
+      ],
+      "learning_status": "In Progress",
+      "overall_progress": 51
+    },
+    {
+      "id": 33,
+      "name": "Muskan Sharma",
+      "role": "Statistical Assistant",
+      "department": "Official Statistical System",
+      "skills": [
+        {
+          "name": "Sampling Techniques",
+          "proficiency_score": 55
+        },
+        {
+          "name": "Data Analysis",
+          "proficiency_score": 74
+        },
+        {
+          "name": "Data Quality Management",
+          "proficiency_score": 66
+        },
+        {
+          "name": "Machine Learning",
+          "proficiency_score": 94
+        },
+        {
+          "name": "GIS",
+          "proficiency_score": 63
+        }
+      ],
+      "skills_to_work_on": [
+        {
+          "skill": "Sampling Techniques",
+          "current_score": 55,
+          "target_score": 86,
+          "priority": "High"
+        },
+        {
+          "skill": "GIS",
+          "current_score": 63,
+          "target_score": 80,
+          "priority": "High"
+        }
+      ],
+      "recommended_training": [
+        "Sampling Techniques",
+        "GIS for Statistical Applications"
+      ],
+      "learning_status": "Completed",
+      "overall_progress": 70
+    },
+    {
+      "id": 34,
+      "name": "Deepak Verma",
+      "role": "Statistical Assistant",
+      "department": "Official Statistical System",
+      "skills": [
+        {
+          "name": "Statistical Inference",
+          "proficiency_score": 55
+        },
+        {
+          "name": "Data Analysis",
+          "proficiency_score": 66
+        },
+        {
+          "name": "Sampling Techniques",
+          "proficiency_score": 58
+        },
+        {
+          "name": "Survey Methodology",
+          "proficiency_score": 79
+        },
+        {
+          "name": "Data Visualization",
+          "proficiency_score": 78
+        }
+      ],
+      "skills_to_work_on": [
+        {
+          "skill": "Statistical Inference",
+          "current_score": 55,
+          "target_score": 83,
+          "priority": "High"
+        },
+        {
+          "skill": "Sampling Techniques",
+          "current_score": 58,
+          "target_score": 90,
+          "priority": "High"
+        }
+      ],
+      "recommended_training": [
+        "Statistical Inference",
+        "Sampling Techniques"
+      ],
+      "learning_status": "Completed",
+      "overall_progress": 86
+    },
+    {
+      "id": 35,
+      "name": "Pallavi Singh",
+      "role": "Survey Officer",
+      "department": "Official Statistical System",
+      "skills": [
+        {
+          "name": "Excel",
+          "proficiency_score": 55
+        },
+        {
+          "name": "Sampling Techniques",
+          "proficiency_score": 86
+        },
+        {
+          "name": "Survey Methodology",
+          "proficiency_score": 84
+        },
+        {
+          "name": "Python",
+          "proficiency_score": 95
+        },
+        {
+          "name": "Data Quality Management",
+          "proficiency_score": 70
+        }
+      ],
+      "skills_to_work_on": [
+        {
+          "skill": "Excel",
+          "current_score": 55,
+          "target_score": 85,
+          "priority": "High"
+        }
+      ],
+      "recommended_training": [
+        "Advanced Excel for Data Analysis"
+      ],
+      "learning_status": "Not Started",
+      "overall_progress": 78
+    },
+    {
+      "id": 36,
+      "name": "Saurabh Gupta",
+      "role": "Research Officer",
+      "department": "Official Statistical System",
+      "skills": [
+        {
+          "name": "Data Quality Management",
+          "proficiency_score": 86
+        },
+        {
+          "name": "SQL",
+          "proficiency_score": 57
+        },
+        {
+          "name": "Python",
+          "proficiency_score": 59
+        },
+        {
+          "name": "Statistics",
+          "proficiency_score": 78
+        },
+        {
+          "name": "Statistical Inference",
+          "proficiency_score": 77
+        }
+      ],
+      "skills_to_work_on": [
+        {
+          "skill": "SQL",
+          "current_score": 57,
+          "target_score": 81,
+          "priority": "High"
+        },
+        {
+          "skill": "Python",
+          "current_score": 59,
+          "target_score": 80,
+          "priority": "High"
+        }
+      ],
+      "recommended_training": [
+        "SQL for Data Management",
+        "Python for Data Analysis"
+      ],
+      "learning_status": "Not Started",
+      "overall_progress": 84
+    },
+    {
+      "id": 37,
+      "name": "Divya Yadav",
+      "role": "Research Officer",
+      "department": "Official Statistical System",
+      "skills": [
+        {
+          "name": "Machine Learning",
+          "proficiency_score": 66
+        },
+        {
+          "name": "Data Visualization",
+          "proficiency_score": 89
+        },
+        {
+          "name": "Survey Methodology",
+          "proficiency_score": 67
+        },
+        {
+          "name": "Data Quality Management",
+          "proficiency_score": 63
+        },
+        {
+          "name": "Statistical Inference",
+          "proficiency_score": 88
+        }
+      ],
+      "skills_to_work_on": [
+        {
+          "skill": "Data Quality Management",
+          "current_score": 63,
+          "target_score": 84,
+          "priority": "High"
+        },
+        {
+          "skill": "Machine Learning",
+          "current_score": 66,
+          "target_score": 89,
+          "priority": "Medium"
+        }
+      ],
+      "recommended_training": [
+        "Data Quality Management",
+        "Machine Learning Fundamentals"
+      ],
+      "learning_status": "Not Started",
+      "overall_progress": 43
+    },
+    {
+      "id": 38,
+      "name": "Ankit Mishra",
+      "role": "Data Management Officer",
+      "department": "Official Statistical System",
+      "skills": [
+        {
+          "name": "Python",
+          "proficiency_score": 75
+        },
+        {
+          "name": "Statistical Inference",
+          "proficiency_score": 93
+        },
+        {
+          "name": "Statistics",
+          "proficiency_score": 73
+        },
+        {
+          "name": "Sampling Techniques",
+          "proficiency_score": 78
+        },
+        {
+          "name": "Machine Learning",
+          "proficiency_score": 91
+        }
+      ],
+      "skills_to_work_on": [
+        {
+          "skill": "Statistics",
+          "current_score": 73,
+          "target_score": 82,
+          "priority": "Medium"
+        }
+      ],
+      "recommended_training": [
+        "Advanced Statistics"
+      ],
+      "learning_status": "In Progress",
+      "overall_progress": 90
+    },
+    {
+      "id": 39,
+      "name": "Kriti Sharma",
+      "role": "Statistical Officer",
+      "department": "Official Statistical System",
+      "skills": [
+        {
+          "name": "GIS",
+          "proficiency_score": 74
+        },
+        {
+          "name": "Survey Methodology",
+          "proficiency_score": 78
+        },
+        {
+          "name": "Machine Learning",
+          "proficiency_score": 67
+        },
+        {
+          "name": "Statistics",
+          "proficiency_score": 70
+        },
+        {
+          "name": "Excel",
+          "proficiency_score": 76
+        }
+      ],
+      "skills_to_work_on": [
+        {
+          "skill": "Machine Learning",
+          "current_score": 67,
+          "target_score": 90,
+          "priority": "Medium"
+        }
+      ],
+      "recommended_training": [
+        "Machine Learning Fundamentals"
+      ],
+      "learning_status": "In Progress",
+      "overall_progress": 35
+    },
+    {
+      "id": 40,
+      "name": "Ritesh Kumar",
+      "role": "Research Officer",
+      "department": "Official Statistical System",
+      "skills": [
+        {
+          "name": "Data Visualization",
+          "proficiency_score": 56
+        },
+        {
+          "name": "GIS",
+          "proficiency_score": 69
+        },
+        {
+          "name": "Excel",
+          "proficiency_score": 70
+        },
+        {
+          "name": "Sampling Techniques",
+          "proficiency_score": 57
+        },
+        {
+          "name": "Python",
+          "proficiency_score": 88
+        }
+      ],
+      "skills_to_work_on": [
+        {
+          "skill": "Data Visualization",
+          "current_score": 56,
+          "target_score": 90,
+          "priority": "High"
+        }
+      ],
+      "recommended_training": [
+        "Data Visualization with Python"
+      ],
+      "learning_status": "Completed",
+      "overall_progress": 76
+    },
+    {
+      "id": 41,
+      "name": "Swati Singh",
+      "role": "Statistical Officer",
+      "department": "Official Statistical System",
+      "skills": [
+        {
+          "name": "Data Analysis",
+          "proficiency_score": 79
+        },
+        {
+          "name": "SQL",
+          "proficiency_score": 79
+        },
+        {
+          "name": "Python",
+          "proficiency_score": 76
+        },
+        {
+          "name": "Excel",
+          "proficiency_score": 81
+        },
+        {
+          "name": "Machine Learning",
+          "proficiency_score": 59
+        }
+      ],
+      "skills_to_work_on": [
+        {
+          "skill": "Machine Learning",
+          "current_score": 59,
+          "target_score": 84,
+          "priority": "High"
+        },
+        {
+          "skill": "Python",
+          "current_score": 76,
+          "target_score": 84,
+          "priority": "Medium"
+        }
+      ],
+      "recommended_training": [
+        "Machine Learning Fundamentals",
+        "Python for Data Analysis"
+      ],
+      "learning_status": "Completed",
+      "overall_progress": 85
+    },
+    {
+      "id": 42,
+      "name": "Akash Verma",
+      "role": "Statistical Assistant",
+      "department": "Official Statistical System",
+      "skills": [
+        {
+          "name": "Excel",
+          "proficiency_score": 56
+        },
+        {
+          "name": "Data Analysis",
+          "proficiency_score": 69
+        },
+        {
+          "name": "Machine Learning",
+          "proficiency_score": 86
+        },
+        {
+          "name": "Survey Methodology",
+          "proficiency_score": 65
+        },
+        {
+          "name": "Sampling Techniques",
+          "proficiency_score": 62
+        }
+      ],
+      "skills_to_work_on": [
+        {
+          "skill": "Excel",
+          "current_score": 56,
+          "target_score": 82,
+          "priority": "High"
+        }
+      ],
+      "recommended_training": [
+        "Advanced Excel for Data Analysis"
+      ],
+      "learning_status": "Completed",
+      "overall_progress": 61
+    },
+    {
+      "id": 43,
+      "name": "Isha Gupta",
+      "role": "Data Management Officer",
+      "department": "Official Statistical System",
+      "skills": [
+        {
+          "name": "Survey Methodology",
+          "proficiency_score": 73
+        },
+        {
+          "name": "Machine Learning",
+          "proficiency_score": 76
+        },
+        {
+          "name": "SQL",
+          "proficiency_score": 65
+        },
+        {
+          "name": "Data Analysis",
+          "proficiency_score": 60
+        },
+        {
+          "name": "Sampling Techniques",
+          "proficiency_score": 67
+        }
+      ],
+      "skills_to_work_on": [
+        {
+          "skill": "Data Analysis",
+          "current_score": 60,
+          "target_score": 89,
+          "priority": "High"
+        },
+        {
+          "skill": "SQL",
+          "current_score": 65,
+          "target_score": 84,
+          "priority": "Medium"
+        }
+      ],
+      "recommended_training": [
+        "Data Analysis Fundamentals",
+        "SQL for Data Management"
+      ],
+      "learning_status": "Not Started",
+      "overall_progress": 48
+    },
+    {
+      "id": 44,
+      "name": "Vikas Yadav",
+      "role": "Data Analyst",
+      "department": "Official Statistical System",
+      "skills": [
+        {
+          "name": "Python",
+          "proficiency_score": 65
+        },
+        {
+          "name": "Statistical Inference",
+          "proficiency_score": 81
+        },
+        {
+          "name": "Statistics",
+          "proficiency_score": 88
+        },
+        {
+          "name": "Machine Learning",
+          "proficiency_score": 57
+        },
+        {
+          "name": "Data Quality Management",
+          "proficiency_score": 89
+        }
+      ],
+      "skills_to_work_on": [
+        {
+          "skill": "Machine Learning",
+          "current_score": 57,
+          "target_score": 83,
+          "priority": "High"
+        }
+      ],
+      "recommended_training": [
+        "Machine Learning Fundamentals"
+      ],
+      "learning_status": "In Progress",
+      "overall_progress": 35
+    },
+    {
+      "id": 45,
+      "name": "Nisha Patel",
+      "role": "Statistical Officer",
+      "department": "Official Statistical System",
+      "skills": [
+        {
+          "name": "Excel",
+          "proficiency_score": 79
+        },
+        {
+          "name": "Machine Learning",
+          "proficiency_score": 88
+        },
+        {
+          "name": "Sampling Techniques",
+          "proficiency_score": 94
+        },
+        {
+          "name": "Data Quality Management",
+          "proficiency_score": 76
+        },
+        {
+          "name": "Statistical Inference",
+          "proficiency_score": 87
+        }
+      ],
+      "skills_to_work_on": [
+        {
+          "skill": "Data Quality Management",
+          "current_score": 76,
+          "target_score": 88,
+          "priority": "Medium"
+        }
+      ],
+      "recommended_training": [
+        "Data Quality Management"
+      ],
+      "learning_status": "Not Started",
+      "overall_progress": 77
+    },
+    {
+      "id": 46,
+      "name": "Ravi Kumar",
+      "role": "Statistical Officer",
+      "department": "Official Statistical System",
+      "skills": [
+        {
+          "name": "Sampling Techniques",
+          "proficiency_score": 88
+        },
+        {
+          "name": "GIS",
+          "proficiency_score": 91
+        },
+        {
+          "name": "SQL",
+          "proficiency_score": 90
+        },
+        {
+          "name": "Excel",
+          "proficiency_score": 84
+        },
+        {
+          "name": "Data Visualization",
+          "proficiency_score": 62
+        }
+      ],
+      "skills_to_work_on": [
+        {
+          "skill": "Data Visualization",
+          "current_score": 62,
+          "target_score": 90,
+          "priority": "High"
+        }
+      ],
+      "recommended_training": [
+        "Data Visualization with Python"
+      ],
+      "learning_status": "In Progress",
+      "overall_progress": 48
+    },
+    {
+      "id": 47,
+      "name": "Anjali Sharma",
+      "role": "Statistical Officer",
+      "department": "Official Statistical System",
+      "skills": [
+        {
+          "name": "Survey Methodology",
+          "proficiency_score": 63
+        },
+        {
+          "name": "Excel",
+          "proficiency_score": 74
+        },
+        {
+          "name": "Statistics",
+          "proficiency_score": 68
+        },
+        {
+          "name": "GIS",
+          "proficiency_score": 76
+        },
+        {
+          "name": "Statistical Inference",
+          "proficiency_score": 70
+        }
+      ],
+      "skills_to_work_on": [
+        {
+          "skill": "Survey Methodology",
+          "current_score": 63,
+          "target_score": 81,
+          "priority": "High"
+        }
+      ],
+      "recommended_training": [
+        "Survey Methodology"
+      ],
+      "learning_status": "Not Started",
+      "overall_progress": 52
+    },
+    {
+      "id": 48,
+      "name": "Gaurav Singh",
+      "role": "Data Analyst",
+      "department": "Official Statistical System",
+      "skills": [
+        {
+          "name": "Statistical Inference",
+          "proficiency_score": 62
+        },
+        {
+          "name": "Data Quality Management",
+          "proficiency_score": 78
+        },
+        {
+          "name": "Survey Methodology",
+          "proficiency_score": 59
+        },
+        {
+          "name": "SQL",
+          "proficiency_score": 70
+        },
+        {
+          "name": "GIS",
+          "proficiency_score": 75
+        }
+      ],
+      "skills_to_work_on": [
+        {
+          "skill": "Survey Methodology",
+          "current_score": 59,
+          "target_score": 80,
+          "priority": "High"
+        }
+      ],
+      "recommended_training": [
+        "Survey Methodology"
+      ],
+      "learning_status": "Completed",
+      "overall_progress": 81
+    },
+    {
+      "id": 49,
+      "name": "Komal Mishra",
+      "role": "Data Management Officer",
+      "department": "Official Statistical System",
+      "skills": [
+        {
+          "name": "Sampling Techniques",
+          "proficiency_score": 57
+        },
+        {
+          "name": "Data Visualization",
+          "proficiency_score": 62
+        },
+        {
+          "name": "Statistical Inference",
+          "proficiency_score": 59
+        },
+        {
+          "name": "Data Analysis",
+          "proficiency_score": 59
+        },
+        {
+          "name": "Statistics",
+          "proficiency_score": 63
+        }
+      ],
+      "skills_to_work_on": [
+        {
+          "skill": "Sampling Techniques",
+          "current_score": 57,
+          "target_score": 89,
+          "priority": "High"
+        },
+        {
+          "skill": "Statistical Inference",
+          "current_score": 59,
+          "target_score": 86,
+          "priority": "High"
+        }
+      ],
+      "recommended_training": [
+        "Sampling Techniques",
+        "Statistical Inference"
+      ],
+      "learning_status": "In Progress",
+      "overall_progress": 31
+    },
+    {
+      "id": 50,
+      "name": "Siddharth Gupta",
+      "role": "Data Analyst",
+      "department": "Official Statistical System",
+      "skills": [
+        {
+          "name": "Data Quality Management",
+          "proficiency_score": 86
+        },
+        {
+          "name": "Statistics",
+          "proficiency_score": 82
+        },
+        {
+          "name": "Sampling Techniques",
+          "proficiency_score": 72
+        },
+        {
+          "name": "GIS",
+          "proficiency_score": 62
+        },
+        {
+          "name": "Data Analysis",
+          "proficiency_score": 86
+        }
+      ],
+      "skills_to_work_on": [
+        {
+          "skill": "GIS",
+          "current_score": 62,
+          "target_score": 85,
+          "priority": "High"
+        }
+      ],
+      "recommended_training": [
+        "GIS for Statistical Applications"
+      ],
+      "learning_status": "In Progress",
+      "overall_progress": 55
+    },
+    {
+      "id": 51,
+      "name": "Priti Verma",
+      "role": "Data Analyst",
+      "department": "Official Statistical System",
+      "skills": [
+        {
+          "name": "Python",
+          "proficiency_score": 82
+        },
+        {
+          "name": "Statistical Inference",
+          "proficiency_score": 71
+        },
+        {
+          "name": "Sampling Techniques",
+          "proficiency_score": 57
+        },
+        {
+          "name": "Data Quality Management",
+          "proficiency_score": 90
+        },
+        {
+          "name": "SQL",
+          "proficiency_score": 95
+        }
+      ],
+      "skills_to_work_on": [
+        {
+          "skill": "Sampling Techniques",
+          "current_score": 57,
+          "target_score": 80,
+          "priority": "High"
+        }
+      ],
+      "recommended_training": [
+        "Sampling Techniques"
+      ],
+      "learning_status": "Not Started",
+      "overall_progress": 82
+    },
+    {
+      "id": 52,
+      "name": "Vishal Kumar",
+      "role": "Survey Officer",
+      "department": "Official Statistical System",
+      "skills": [
+        {
+          "name": "SQL",
+          "proficiency_score": 62
+        },
+        {
+          "name": "Python",
+          "proficiency_score": 84
+        },
+        {
+          "name": "GIS",
+          "proficiency_score": 72
+        },
+        {
+          "name": "Statistical Inference",
+          "proficiency_score": 77
+        },
+        {
+          "name": "Data Visualization",
+          "proficiency_score": 72
+        }
+      ],
+      "skills_to_work_on": [
+        {
+          "skill": "SQL",
+          "current_score": 62,
+          "target_score": 83,
+          "priority": "High"
+        }
+      ],
+      "recommended_training": [
+        "SQL for Data Management"
+      ],
+      "learning_status": "In Progress",
+      "overall_progress": 68
+    },
+    {
+      "id": 53,
+      "name": "Mansi Singh",
+      "role": "Data Management Officer",
+      "department": "Official Statistical System",
+      "skills": [
+        {
+          "name": "Survey Methodology",
+          "proficiency_score": 75
+        },
+        {
+          "name": "Statistical Inference",
+          "proficiency_score": 69
+        },
+        {
+          "name": "Python",
+          "proficiency_score": 61
+        },
+        {
+          "name": "Statistics",
+          "proficiency_score": 81
+        },
+        {
+          "name": "Sampling Techniques",
+          "proficiency_score": 93
+        }
+      ],
+      "skills_to_work_on": [
+        {
+          "skill": "Python",
+          "current_score": 61,
+          "target_score": 89,
+          "priority": "High"
+        },
+        {
+          "skill": "Statistical Inference",
+          "current_score": 69,
+          "target_score": 88,
+          "priority": "Medium"
+        }
+      ],
+      "recommended_training": [
+        "Python for Data Analysis",
+        "Statistical Inference"
+      ],
+      "learning_status": "In Progress",
+      "overall_progress": 47
+    },
+    {
+      "id": 54,
+      "name": "Rohit Sharma",
+      "role": "Statistical Officer",
+      "department": "Official Statistical System",
+      "skills": [
+        {
+          "name": "Data Quality Management",
+          "proficiency_score": 56
+        },
+        {
+          "name": "Python",
+          "proficiency_score": 78
+        },
+        {
+          "name": "Data Visualization",
+          "proficiency_score": 68
+        },
+        {
+          "name": "Survey Methodology",
+          "proficiency_score": 82
+        },
+        {
+          "name": "Statistics",
+          "proficiency_score": 88
+        }
+      ],
+      "skills_to_work_on": [
+        {
+          "skill": "Data Quality Management",
+          "current_score": 56,
+          "target_score": 84,
+          "priority": "High"
+        },
+        {
+          "skill": "Data Visualization",
+          "current_score": 68,
+          "target_score": 82,
+          "priority": "Medium"
+        }
+      ],
+      "recommended_training": [
+        "Data Quality Management",
+        "Data Visualization with Python"
+      ],
+      "learning_status": "In Progress",
+      "overall_progress": 26
+    },
+    {
+      "id": 55,
+      "name": "Sonal Yadav",
+      "role": "Research Officer",
+      "department": "Official Statistical System",
+      "skills": [
+        {
+          "name": "Excel",
+          "proficiency_score": 91
+        },
+        {
+          "name": "Data Visualization",
+          "proficiency_score": 73
+        },
+        {
+          "name": "Sampling Techniques",
+          "proficiency_score": 89
+        },
+        {
+          "name": "GIS",
+          "proficiency_score": 59
+        },
+        {
+          "name": "Machine Learning",
+          "proficiency_score": 90
+        }
+      ],
+      "skills_to_work_on": [
+        {
+          "skill": "GIS",
+          "current_score": 59,
+          "target_score": 82,
+          "priority": "High"
+        }
+      ],
+      "recommended_training": [
+        "GIS for Statistical Applications"
+      ],
+      "learning_status": "Completed",
+      "overall_progress": 25
+    },
+    {
+      "id": 56,
+      "name": "Tarun Gupta",
+      "role": "Survey Officer",
+      "department": "Official Statistical System",
+      "skills": [
+        {
+          "name": "Sampling Techniques",
+          "proficiency_score": 78
+        },
+        {
+          "name": "SQL",
+          "proficiency_score": 71
+        },
+        {
+          "name": "Data Analysis",
+          "proficiency_score": 71
+        },
+        {
+          "name": "Survey Methodology",
+          "proficiency_score": 86
+        },
+        {
+          "name": "Statistics",
+          "proficiency_score": 59
+        }
+      ],
+      "skills_to_work_on": [
+        {
+          "skill": "Statistics",
+          "current_score": 59,
+          "target_score": 87,
+          "priority": "High"
+        }
+      ],
+      "recommended_training": [
+        "Advanced Statistics"
+      ],
+      "learning_status": "Completed",
+      "overall_progress": 77
+    },
+    {
+      "id": 57,
+      "name": "Preeti Patel",
+      "role": "Data Management Officer",
+      "department": "Official Statistical System",
+      "skills": [
+        {
+          "name": "Sampling Techniques",
+          "proficiency_score": 95
+        },
+        {
+          "name": "Survey Methodology",
+          "proficiency_score": 90
+        },
+        {
+          "name": "Data Visualization",
+          "proficiency_score": 95
+        },
+        {
+          "name": "GIS",
+          "proficiency_score": 94
+        },
+        {
+          "name": "Machine Learning",
+          "proficiency_score": 95
+        }
+      ],
+      "skills_to_work_on": [
+        {
+          "skill": "Survey Methodology",
+          "current_score": 90,
+          "target_score": 82,
+          "priority": "Medium"
+        }
+      ],
+      "recommended_training": [
+        "Survey Methodology"
+      ],
+      "learning_status": "In Progress",
+      "overall_progress": 87
+    },
+    {
+      "id": 58,
+      "name": "Chirag Mishra",
+      "role": "Survey Officer",
+      "department": "Official Statistical System",
+      "skills": [
+        {
+          "name": "Data Quality Management",
+          "proficiency_score": 87
+        },
+        {
+          "name": "Data Analysis",
+          "proficiency_score": 84
+        },
+        {
+          "name": "Survey Methodology",
+          "proficiency_score": 61
+        },
+        {
+          "name": "Python",
+          "proficiency_score": 56
+        },
+        {
+          "name": "Machine Learning",
+          "proficiency_score": 72
+        }
+      ],
+      "skills_to_work_on": [
+        {
+          "skill": "Python",
+          "current_score": 56,
+          "target_score": 85,
+          "priority": "High"
+        }
+      ],
+      "recommended_training": [
+        "Python for Data Analysis"
+      ],
+      "learning_status": "In Progress",
+      "overall_progress": 87
+    },
+    {
+      "id": 59,
+      "name": "Shivani Singh",
+      "role": "Statistical Assistant",
+      "department": "Official Statistical System",
+      "skills": [
+        {
+          "name": "Excel",
+          "proficiency_score": 74
+        },
+        {
+          "name": "Sampling Techniques",
+          "proficiency_score": 64
+        },
+        {
+          "name": "Python",
+          "proficiency_score": 94
+        },
+        {
+          "name": "Data Quality Management",
+          "proficiency_score": 90
+        },
+        {
+          "name": "Data Analysis",
+          "proficiency_score": 90
+        }
+      ],
+      "skills_to_work_on": [
+        {
+          "skill": "Sampling Techniques",
+          "current_score": 64,
+          "target_score": 88,
+          "priority": "High"
+        },
+        {
+          "skill": "Excel",
+          "current_score": 74,
+          "target_score": 86,
+          "priority": "Medium"
+        }
+      ],
+      "recommended_training": [
+        "Sampling Techniques",
+        "Advanced Excel for Data Analysis"
+      ],
+      "learning_status": "Completed",
+      "overall_progress": 85
+    },
+    {
+      "id": 60,
+      "name": "Raj Kumar",
+      "role": "Data Management Officer",
+      "department": "Official Statistical System",
+      "skills": [
+        {
+          "name": "Data Visualization",
+          "proficiency_score": 85
+        },
+        {
+          "name": "Excel",
+          "proficiency_score": 58
+        },
+        {
+          "name": "GIS",
+          "proficiency_score": 69
+        },
+        {
+          "name": "Data Analysis",
+          "proficiency_score": 78
+        },
+        {
+          "name": "Statistics",
+          "proficiency_score": 75
+        }
+      ],
+      "skills_to_work_on": [
+        {
+          "skill": "Excel",
+          "current_score": 58,
+          "target_score": 83,
+          "priority": "High"
+        },
+        {
+          "skill": "GIS",
+          "current_score": 69,
+          "target_score": 87,
+          "priority": "Medium"
+        }
+      ],
+      "recommended_training": [
+        "Advanced Excel for Data Analysis",
+        "GIS for Statistical Applications"
+      ],
+      "learning_status": "In Progress",
+      "overall_progress": 59
+    },
+    {
+      "id": 61,
+      "name": "Monika Verma",
+      "role": "Data Management Officer",
+      "department": "Official Statistical System",
+      "skills": [
+        {
+          "name": "Python",
+          "proficiency_score": 58
+        },
+        {
+          "name": "SQL",
+          "proficiency_score": 88
+        },
+        {
+          "name": "Excel",
+          "proficiency_score": 78
+        },
+        {
+          "name": "GIS",
+          "proficiency_score": 89
+        },
+        {
+          "name": "Data Quality Management",
+          "proficiency_score": 91
+        }
+      ],
+      "skills_to_work_on": [
+        {
+          "skill": "Python",
+          "current_score": 58,
+          "target_score": 82,
+          "priority": "High"
+        }
+      ],
+      "recommended_training": [
+        "Python for Data Analysis"
+      ],
+      "learning_status": "In Progress",
+      "overall_progress": 61
+    },
+    {
+      "id": 62,
+      "name": "Abhinav Sharma",
+      "role": "Data Management Officer",
+      "department": "Official Statistical System",
+      "skills": [
+        {
+          "name": "Python",
+          "proficiency_score": 86
+        },
+        {
+          "name": "Sampling Techniques",
+          "proficiency_score": 75
+        },
+        {
+          "name": "Statistical Inference",
+          "proficiency_score": 85
+        },
+        {
+          "name": "GIS",
+          "proficiency_score": 87
+        },
+        {
+          "name": "Machine Learning",
+          "proficiency_score": 94
+        }
+      ],
+      "skills_to_work_on": [
+        {
+          "skill": "Sampling Techniques",
+          "current_score": 75,
+          "target_score": 88,
+          "priority": "Medium"
+        },
+        {
+          "skill": "Statistical Inference",
+          "current_score": 85,
+          "target_score": 86,
+          "priority": "Medium"
+        }
+      ],
+      "recommended_training": [
+        "Sampling Techniques",
+        "Statistical Inference"
+      ],
+      "learning_status": "Not Started",
+      "overall_progress": 39
+    },
+    {
+      "id": 63,
+      "name": "Payal Gupta",
+      "role": "Data Analyst",
+      "department": "Official Statistical System",
+      "skills": [
+        {
+          "name": "Statistics",
+          "proficiency_score": 69
+        },
+        {
+          "name": "Data Analysis",
+          "proficiency_score": 75
+        },
+        {
+          "name": "Data Quality Management",
+          "proficiency_score": 67
+        },
+        {
+          "name": "Survey Methodology",
+          "proficiency_score": 58
+        },
+        {
+          "name": "SQL",
+          "proficiency_score": 55
+        }
+      ],
+      "skills_to_work_on": [
+        {
+          "skill": "SQL",
+          "current_score": 55,
+          "target_score": 80,
+          "priority": "High"
+        },
+        {
+          "skill": "Survey Methodology",
+          "current_score": 58,
+          "target_score": 83,
+          "priority": "High"
+        }
+      ],
+      "recommended_training": [
+        "SQL for Data Management",
+        "Survey Methodology"
+      ],
+      "learning_status": "Completed",
+      "overall_progress": 60
+    },
+    {
+      "id": 64,
+      "name": "Lokesh Yadav",
+      "role": "Statistical Officer",
+      "department": "Official Statistical System",
+      "skills": [
+        {
+          "name": "SQL",
+          "proficiency_score": 59
+        },
+        {
+          "name": "Data Visualization",
+          "proficiency_score": 78
+        },
+        {
+          "name": "Statistical Inference",
+          "proficiency_score": 57
+        },
+        {
+          "name": "Data Quality Management",
+          "proficiency_score": 63
+        },
+        {
+          "name": "Excel",
+          "proficiency_score": 91
+        }
+      ],
+      "skills_to_work_on": [
+        {
+          "skill": "Statistical Inference",
+          "current_score": 57,
+          "target_score": 87,
+          "priority": "High"
+        },
+        {
+          "skill": "SQL",
+          "current_score": 59,
+          "target_score": 82,
+          "priority": "High"
+        }
+      ],
+      "recommended_training": [
+        "Statistical Inference",
+        "SQL for Data Management"
+      ],
+      "learning_status": "Completed",
+      "overall_progress": 33
+    },
+    {
+      "id": 65,
+      "name": "Garima Singh",
+      "role": "Research Officer",
+      "department": "Official Statistical System",
+      "skills": [
+        {
+          "name": "Machine Learning",
+          "proficiency_score": 68
+        },
+        {
+          "name": "SQL",
+          "proficiency_score": 94
+        },
+        {
+          "name": "Excel",
+          "proficiency_score": 65
+        },
+        {
+          "name": "Sampling Techniques",
+          "proficiency_score": 62
+        },
+        {
+          "name": "Statistics",
+          "proficiency_score": 65
+        }
+      ],
+      "skills_to_work_on": [
+        {
+          "skill": "Sampling Techniques",
+          "current_score": 62,
+          "target_score": 88,
+          "priority": "High"
+        },
+        {
+          "skill": "Excel",
+          "current_score": 65,
+          "target_score": 88,
+          "priority": "Medium"
+        }
+      ],
+      "recommended_training": [
+        "Sampling Techniques",
+        "Advanced Excel for Data Analysis"
+      ],
+      "learning_status": "Not Started",
+      "overall_progress": 62
+    },
+    {
+      "id": 66,
+      "name": "Ujjwal Kumar",
+      "role": "Data Analyst",
+      "department": "Official Statistical System",
+      "skills": [
+        {
+          "name": "Machine Learning",
+          "proficiency_score": 81
+        },
+        {
+          "name": "Data Quality Management",
+          "proficiency_score": 69
+        },
+        {
+          "name": "Survey Methodology",
+          "proficiency_score": 94
+        },
+        {
+          "name": "Sampling Techniques",
+          "proficiency_score": 86
+        },
+        {
+          "name": "Data Analysis",
+          "proficiency_score": 93
+        }
+      ],
+      "skills_to_work_on": [
+        {
+          "skill": "Data Quality Management",
+          "current_score": 69,
+          "target_score": 87,
+          "priority": "Medium"
+        },
+        {
+          "skill": "Machine Learning",
+          "current_score": 81,
+          "target_score": 87,
+          "priority": "Medium"
+        }
+      ],
+      "recommended_training": [
+        "Data Quality Management",
+        "Machine Learning Fundamentals"
+      ],
+      "learning_status": "In Progress",
+      "overall_progress": 65
+    },
+    {
+      "id": 67,
+      "name": "Rashmi Patel",
+      "role": "Statistical Assistant",
+      "department": "Official Statistical System",
+      "skills": [
+        {
+          "name": "Data Visualization",
+          "proficiency_score": 72
+        },
+        {
+          "name": "GIS",
+          "proficiency_score": 95
+        },
+        {
+          "name": "Sampling Techniques",
+          "proficiency_score": 86
+        },
+        {
+          "name": "Excel",
+          "proficiency_score": 88
+        },
+        {
+          "name": "Python",
+          "proficiency_score": 71
+        }
+      ],
+      "skills_to_work_on": [
+        {
+          "skill": "Python",
+          "current_score": 71,
+          "target_score": 83,
+          "priority": "Medium"
+        },
+        {
+          "skill": "Data Visualization",
+          "current_score": 72,
+          "target_score": 88,
+          "priority": "Medium"
+        }
+      ],
+      "recommended_training": [
+        "Python for Data Analysis",
+        "Data Visualization with Python"
+      ],
+      "learning_status": "In Progress",
+      "overall_progress": 49
+    },
+    {
+      "id": 68,
+      "name": "Dev Mishra",
+      "role": "Survey Officer",
+      "department": "Official Statistical System",
+      "skills": [
+        {
+          "name": "Machine Learning",
+          "proficiency_score": 60
+        },
+        {
+          "name": "Statistics",
+          "proficiency_score": 55
+        },
+        {
+          "name": "Excel",
+          "proficiency_score": 78
+        },
+        {
+          "name": "Data Analysis",
+          "proficiency_score": 95
+        },
+        {
+          "name": "SQL",
+          "proficiency_score": 83
+        }
+      ],
+      "skills_to_work_on": [
+        {
+          "skill": "Statistics",
+          "current_score": 55,
+          "target_score": 83,
+          "priority": "High"
+        }
+      ],
+      "recommended_training": [
+        "Advanced Statistics"
+      ],
+      "learning_status": "In Progress",
+      "overall_progress": 28
+    },
+    {
+      "id": 69,
+      "name": "Alisha Sharma",
+      "role": "Statistical Assistant",
+      "department": "Official Statistical System",
+      "skills": [
+        {
+          "name": "Data Visualization",
+          "proficiency_score": 68
+        },
+        {
+          "name": "Survey Methodology",
+          "proficiency_score": 86
+        },
+        {
+          "name": "Statistics",
+          "proficiency_score": 93
+        },
+        {
+          "name": "Python",
+          "proficiency_score": 91
+        },
+        {
+          "name": "Data Quality Management",
+          "proficiency_score": 95
+        }
+      ],
+      "skills_to_work_on": [
+        {
+          "skill": "Data Visualization",
+          "current_score": 68,
+          "target_score": 89,
+          "priority": "Medium"
+        }
+      ],
+      "recommended_training": [
+        "Data Visualization with Python"
+      ],
+      "learning_status": "Not Started",
+      "overall_progress": 62
+    },
+    {
+      "id": 70,
+      "name": "Naveen Verma",
+      "role": "Research Officer",
+      "department": "Official Statistical System",
+      "skills": [
+        {
+          "name": "GIS",
+          "proficiency_score": 66
+        },
+        {
+          "name": "Python",
+          "proficiency_score": 63
+        },
+        {
+          "name": "SQL",
+          "proficiency_score": 58
+        },
+        {
+          "name": "Survey Methodology",
+          "proficiency_score": 78
+        },
+        {
+          "name": "Sampling Techniques",
+          "proficiency_score": 57
+        }
+      ],
+      "skills_to_work_on": [
+        {
+          "skill": "Sampling Techniques",
+          "current_score": 57,
+          "target_score": 85,
+          "priority": "High"
+        },
+        {
+          "skill": "SQL",
+          "current_score": 58,
+          "target_score": 85,
+          "priority": "High"
+        }
+      ],
+      "recommended_training": [
+        "Sampling Techniques",
+        "SQL for Data Management"
+      ],
+      "learning_status": "Not Started",
+      "overall_progress": 37
+    },
+    {
+      "id": 71,
+      "name": "Bhavna Singh",
+      "role": "Data Management Officer",
+      "department": "Official Statistical System",
+      "skills": [
+        {
+          "name": "Sampling Techniques",
+          "proficiency_score": 87
+        },
+        {
+          "name": "Python",
+          "proficiency_score": 66
+        },
+        {
+          "name": "Statistical Inference",
+          "proficiency_score": 81
+        },
+        {
+          "name": "Excel",
+          "proficiency_score": 82
+        },
+        {
+          "name": "Survey Methodology",
+          "proficiency_score": 55
+        }
+      ],
+      "skills_to_work_on": [
+        {
+          "skill": "Survey Methodology",
+          "current_score": 55,
+          "target_score": 81,
+          "priority": "High"
+        },
+        {
+          "skill": "Python",
+          "current_score": 66,
+          "target_score": 87,
+          "priority": "Medium"
+        }
+      ],
+      "recommended_training": [
+        "Survey Methodology",
+        "Python for Data Analysis"
+      ],
+      "learning_status": "Not Started",
+      "overall_progress": 61
+    },
+    {
+      "id": 72,
+      "name": "Kunal Gupta",
+      "role": "Statistical Assistant",
+      "department": "Official Statistical System",
+      "skills": [
+        {
+          "name": "Python",
+          "proficiency_score": 83
+        },
+        {
+          "name": "Machine Learning",
+          "proficiency_score": 68
+        },
+        {
+          "name": "GIS",
+          "proficiency_score": 84
+        },
+        {
+          "name": "Statistical Inference",
+          "proficiency_score": 83
+        },
+        {
+          "name": "Data Quality Management",
+          "proficiency_score": 61
+        }
+      ],
+      "skills_to_work_on": [
+        {
+          "skill": "Data Quality Management",
+          "current_score": 61,
+          "target_score": 82,
+          "priority": "High"
+        }
+      ],
+      "recommended_training": [
+        "Data Quality Management"
+      ],
+      "learning_status": "In Progress",
+      "overall_progress": 71
+    },
+    {
+      "id": 73,
+      "name": "Ritika Yadav",
+      "role": "Data Management Officer",
+      "department": "Official Statistical System",
+      "skills": [
+        {
+          "name": "Statistics",
+          "proficiency_score": 83
+        },
+        {
+          "name": "Sampling Techniques",
+          "proficiency_score": 79
+        },
+        {
+          "name": "Statistical Inference",
+          "proficiency_score": 72
+        },
+        {
+          "name": "Python",
+          "proficiency_score": 93
+        },
+        {
+          "name": "Data Analysis",
+          "proficiency_score": 92
+        }
+      ],
+      "skills_to_work_on": [
+        {
+          "skill": "Statistical Inference",
+          "current_score": 72,
+          "target_score": 80,
+          "priority": "Medium"
+        }
+      ],
+      "recommended_training": [
+        "Statistical Inference"
+      ],
+      "learning_status": "Not Started",
+      "overall_progress": 36
+    },
+    {
+      "id": 74,
+      "name": "Sameer Kumar",
+      "role": "Statistical Assistant",
+      "department": "Official Statistical System",
+      "skills": [
+        {
+          "name": "Excel",
+          "proficiency_score": 69
+        },
+        {
+          "name": "Sampling Techniques",
+          "proficiency_score": 60
+        },
+        {
+          "name": "Machine Learning",
+          "proficiency_score": 62
+        },
+        {
+          "name": "Statistical Inference",
+          "proficiency_score": 77
+        },
+        {
+          "name": "Data Analysis",
+          "proficiency_score": 70
+        }
+      ],
+      "skills_to_work_on": [
+        {
+          "skill": "Sampling Techniques",
+          "current_score": 60,
+          "target_score": 81,
+          "priority": "High"
+        }
+      ],
+      "recommended_training": [
+        "Sampling Techniques"
+      ],
+      "learning_status": "Not Started",
+      "overall_progress": 67
+    },
+    {
+      "id": 75,
+      "name": "Ayesha Khan",
+      "role": "Data Analyst",
+      "department": "Official Statistical System",
+      "skills": [
+        {
+          "name": "GIS",
+          "proficiency_score": 70
+        },
+        {
+          "name": "Python",
+          "proficiency_score": 57
+        },
+        {
+          "name": "Machine Learning",
+          "proficiency_score": 87
+        },
+        {
+          "name": "Sampling Techniques",
+          "proficiency_score": 56
+        },
+        {
+          "name": "Data Analysis",
+          "proficiency_score": 87
+        }
+      ],
+      "skills_to_work_on": [
+        {
+          "skill": "Sampling Techniques",
+          "current_score": 56,
+          "target_score": 86,
+          "priority": "High"
+        },
+        {
+          "skill": "Python",
+          "current_score": 57,
+          "target_score": 90,
+          "priority": "High"
+        }
+      ],
+      "recommended_training": [
+        "Sampling Techniques",
+        "Python for Data Analysis"
+      ],
+      "learning_status": "Not Started",
+      "overall_progress": 56
+    },
+    {
+      "id": 76,
+      "name": "Manav Sharma",
+      "role": "Research Officer",
+      "department": "Official Statistical System",
+      "skills": [
+        {
+          "name": "Data Visualization",
+          "proficiency_score": 61
+        },
+        {
+          "name": "Excel",
+          "proficiency_score": 94
+        },
+        {
+          "name": "Python",
+          "proficiency_score": 80
+        },
+        {
+          "name": "Data Analysis",
+          "proficiency_score": 79
+        },
+        {
+          "name": "Survey Methodology",
+          "proficiency_score": 55
+        }
+      ],
+      "skills_to_work_on": [
+        {
+          "skill": "Survey Methodology",
+          "current_score": 55,
+          "target_score": 83,
+          "priority": "High"
+        }
+      ],
+      "recommended_training": [
+        "Survey Methodology"
+      ],
+      "learning_status": "Not Started",
+      "overall_progress": 50
+    },
+    {
+      "id": 77,
+      "name": "Pankaj Singh",
+      "role": "Data Management Officer",
+      "department": "Official Statistical System",
+      "skills": [
+        {
+          "name": "Data Analysis",
+          "proficiency_score": 90
+        },
+        {
+          "name": "GIS",
+          "proficiency_score": 62
+        },
+        {
+          "name": "SQL",
+          "proficiency_score": 71
+        },
+        {
+          "name": "Statistics",
+          "proficiency_score": 69
+        },
+        {
+          "name": "Machine Learning",
+          "proficiency_score": 95
+        }
+      ],
+      "skills_to_work_on": [
+        {
+          "skill": "GIS",
+          "current_score": 62,
+          "target_score": 81,
+          "priority": "High"
+        }
+      ],
+      "recommended_training": [
+        "GIS for Statistical Applications"
+      ],
+      "learning_status": "In Progress",
+      "overall_progress": 67
+    },
+    {
+      "id": 78,
+      "name": "Kashish Verma",
+      "role": "Statistical Officer",
+      "department": "Official Statistical System",
+      "skills": [
+        {
+          "name": "Python",
+          "proficiency_score": 77
+        },
+        {
+          "name": "SQL",
+          "proficiency_score": 95
+        },
+        {
+          "name": "Data Visualization",
+          "proficiency_score": 87
+        },
+        {
+          "name": "Machine Learning",
+          "proficiency_score": 85
+        },
+        {
+          "name": "Statistical Inference",
+          "proficiency_score": 58
+        }
+      ],
+      "skills_to_work_on": [
+        {
+          "skill": "Statistical Inference",
+          "current_score": 58,
+          "target_score": 86,
+          "priority": "High"
+        }
+      ],
+      "recommended_training": [
+        "Statistical Inference"
+      ],
+      "learning_status": "Not Started",
+      "overall_progress": 55
+    },
+    {
+      "id": 79,
+      "name": "Jatin Gupta",
+      "role": "Research Officer",
+      "department": "Official Statistical System",
+      "skills": [
+        {
+          "name": "Statistics",
+          "proficiency_score": 77
+        },
+        {
+          "name": "Python",
+          "proficiency_score": 67
+        },
+        {
+          "name": "Data Visualization",
+          "proficiency_score": 79
+        },
+        {
+          "name": "Statistical Inference",
+          "proficiency_score": 89
+        },
+        {
+          "name": "Survey Methodology",
+          "proficiency_score": 62
+        }
+      ],
+      "skills_to_work_on": [
+        {
+          "skill": "Survey Methodology",
+          "current_score": 62,
+          "target_score": 88,
+          "priority": "High"
+        }
+      ],
+      "recommended_training": [
+        "Survey Methodology"
+      ],
+      "learning_status": "Completed",
+      "overall_progress": 25
+    },
+    {
+      "id": 80,
+      "name": "Renu Mishra",
+      "role": "Data Management Officer",
+      "department": "Official Statistical System",
+      "skills": [
+        {
+          "name": "Python",
+          "proficiency_score": 75
+        },
+        {
+          "name": "Data Quality Management",
+          "proficiency_score": 75
+        },
+        {
+          "name": "GIS",
+          "proficiency_score": 56
+        },
+        {
+          "name": "Machine Learning",
+          "proficiency_score": 74
+        },
+        {
+          "name": "Survey Methodology",
+          "proficiency_score": 74
+        }
+      ],
+      "skills_to_work_on": [
+        {
+          "skill": "GIS",
+          "current_score": 56,
+          "target_score": 90,
+          "priority": "High"
+        }
+      ],
+      "recommended_training": [
+        "GIS for Statistical Applications"
+      ],
+      "learning_status": "Completed",
+      "overall_progress": 42
+    },
+    {
+      "id": 81,
+      "name": "Varsha Yadav",
+      "role": "Statistical Officer",
+      "department": "Official Statistical System",
+      "skills": [
+        {
+          "name": "Data Analysis",
+          "proficiency_score": 73
+        },
+        {
+          "name": "Python",
+          "proficiency_score": 90
+        },
+        {
+          "name": "Machine Learning",
+          "proficiency_score": 94
+        },
+        {
+          "name": "GIS",
+          "proficiency_score": 74
+        },
+        {
+          "name": "Statistical Inference",
+          "proficiency_score": 64
+        }
+      ],
+      "skills_to_work_on": [
+        {
+          "skill": "Statistical Inference",
+          "current_score": 64,
+          "target_score": 87,
+          "priority": "High"
+        }
+      ],
+      "recommended_training": [
+        "Statistical Inference"
+      ],
+      "learning_status": "Not Started",
+      "overall_progress": 36
+    },
+    {
+      "id": 82,
+      "name": "Sahil Kumar",
+      "role": "Statistical Assistant",
+      "department": "Official Statistical System",
+      "skills": [
+        {
+          "name": "GIS",
+          "proficiency_score": 77
+        },
+        {
+          "name": "Data Analysis",
+          "proficiency_score": 70
+        },
+        {
+          "name": "Statistics",
+          "proficiency_score": 78
+        },
+        {
+          "name": "Statistical Inference",
+          "proficiency_score": 56
+        },
+        {
+          "name": "Python",
+          "proficiency_score": 66
+        }
+      ],
+      "skills_to_work_on": [
+        {
+          "skill": "Statistical Inference",
+          "current_score": 56,
+          "target_score": 81,
+          "priority": "High"
+        }
+      ],
+      "recommended_training": [
+        "Statistical Inference"
+      ],
+      "learning_status": "Completed",
+      "overall_progress": 75
+    },
+    {
+      "id": 83,
+      "name": "Tanvi Singh",
+      "role": "Data Analyst",
+      "department": "Official Statistical System",
+      "skills": [
+        {
+          "name": "Statistical Inference",
+          "proficiency_score": 57
+        },
+        {
+          "name": "Survey Methodology",
+          "proficiency_score": 71
+        },
+        {
+          "name": "SQL",
+          "proficiency_score": 76
+        },
+        {
+          "name": "Data Quality Management",
+          "proficiency_score": 70
+        },
+        {
+          "name": "Data Analysis",
+          "proficiency_score": 62
+        }
+      ],
+      "skills_to_work_on": [
+        {
+          "skill": "Statistical Inference",
+          "current_score": 57,
+          "target_score": 88,
+          "priority": "High"
+        }
+      ],
+      "recommended_training": [
+        "Statistical Inference"
+      ],
+      "learning_status": "In Progress",
+      "overall_progress": 57
+    },
+    {
+      "id": 84,
+      "name": "Pranav Sharma",
+      "role": "Survey Officer",
+      "department": "Official Statistical System",
+      "skills": [
+        {
+          "name": "Machine Learning",
+          "proficiency_score": 90
+        },
+        {
+          "name": "Data Analysis",
+          "proficiency_score": 76
+        },
+        {
+          "name": "Statistics",
+          "proficiency_score": 80
+        },
+        {
+          "name": "Sampling Techniques",
+          "proficiency_score": 58
+        },
+        {
+          "name": "Data Visualization",
+          "proficiency_score": 84
+        }
+      ],
+      "skills_to_work_on": [
+        {
+          "skill": "Sampling Techniques",
+          "current_score": 58,
+          "target_score": 85,
+          "priority": "High"
+        }
+      ],
+      "recommended_training": [
+        "Sampling Techniques"
+      ],
+      "learning_status": "Completed",
+      "overall_progress": 89
+    },
+    {
+      "id": 85,
+      "name": "Rakesh Verma",
+      "role": "Research Officer",
+      "department": "Official Statistical System",
+      "skills": [
+        {
+          "name": "GIS",
+          "proficiency_score": 76
+        },
+        {
+          "name": "Data Visualization",
+          "proficiency_score": 64
+        },
+        {
+          "name": "Excel",
+          "proficiency_score": 55
+        },
+        {
+          "name": "SQL",
+          "proficiency_score": 61
+        },
+        {
+          "name": "Data Analysis",
+          "proficiency_score": 69
+        }
+      ],
+      "skills_to_work_on": [
+        {
+          "skill": "Excel",
+          "current_score": 55,
+          "target_score": 87,
+          "priority": "High"
+        }
+      ],
+      "recommended_training": [
+        "Advanced Excel for Data Analysis"
+      ],
+      "learning_status": "Completed",
+      "overall_progress": 80
+    },
+    {
+      "id": 86,
+      "name": "Sanya Gupta",
+      "role": "Statistical Officer",
+      "department": "Official Statistical System",
+      "skills": [
+        {
+          "name": "GIS",
+          "proficiency_score": 70
+        },
+        {
+          "name": "Python",
+          "proficiency_score": 91
+        },
+        {
+          "name": "Data Quality Management",
+          "proficiency_score": 78
+        },
+        {
+          "name": "Data Visualization",
+          "proficiency_score": 70
+        },
+        {
+          "name": "SQL",
+          "proficiency_score": 80
+        }
+      ],
+      "skills_to_work_on": [
+        {
+          "skill": "GIS",
+          "current_score": 70,
+          "target_score": 87,
+          "priority": "Medium"
+        }
+      ],
+      "recommended_training": [
+        "GIS for Statistical Applications"
+      ],
+      "learning_status": "Not Started",
+      "overall_progress": 47
+    },
+    {
+      "id": 87,
+      "name": "Mukul Patel",
+      "role": "Research Officer",
+      "department": "Official Statistical System",
+      "skills": [
+        {
+          "name": "Python",
+          "proficiency_score": 59
+        },
+        {
+          "name": "GIS",
+          "proficiency_score": 59
+        },
+        {
+          "name": "Machine Learning",
+          "proficiency_score": 82
+        },
+        {
+          "name": "Data Analysis",
+          "proficiency_score": 65
+        },
+        {
+          "name": "Excel",
+          "proficiency_score": 56
+        }
+      ],
+      "skills_to_work_on": [
+        {
+          "skill": "Excel",
+          "current_score": 56,
+          "target_score": 90,
+          "priority": "High"
+        },
+        {
+          "skill": "Python",
+          "current_score": 59,
+          "target_score": 89,
+          "priority": "High"
+        }
+      ],
+      "recommended_training": [
+        "Advanced Excel for Data Analysis",
+        "Python for Data Analysis"
+      ],
+      "learning_status": "In Progress",
+      "overall_progress": 31
+    },
+    {
+      "id": 88,
+      "name": "Nikita Singh",
+      "role": "Statistical Assistant",
+      "department": "Official Statistical System",
+      "skills": [
+        {
+          "name": "Data Analysis",
+          "proficiency_score": 85
+        },
+        {
+          "name": "Data Visualization",
+          "proficiency_score": 70
+        },
+        {
+          "name": "Sampling Techniques",
+          "proficiency_score": 59
+        },
+        {
+          "name": "Excel",
+          "proficiency_score": 67
+        },
+        {
+          "name": "Survey Methodology",
+          "proficiency_score": 95
+        }
+      ],
+      "skills_to_work_on": [
+        {
+          "skill": "Sampling Techniques",
+          "current_score": 59,
+          "target_score": 87,
+          "priority": "High"
+        },
+        {
+          "skill": "Excel",
+          "current_score": 67,
+          "target_score": 88,
+          "priority": "Medium"
+        }
+      ],
+      "recommended_training": [
+        "Sampling Techniques",
+        "Advanced Excel for Data Analysis"
+      ],
+      "learning_status": "Not Started",
+      "overall_progress": 67
+    },
+    {
+      "id": 89,
+      "name": "Anmol Kumar",
+      "role": "Research Officer",
+      "department": "Official Statistical System",
+      "skills": [
+        {
+          "name": "Statistics",
+          "proficiency_score": 76
+        },
+        {
+          "name": "Python",
+          "proficiency_score": 60
+        },
+        {
+          "name": "SQL",
+          "proficiency_score": 82
+        },
+        {
+          "name": "GIS",
+          "proficiency_score": 89
+        },
+        {
+          "name": "Statistical Inference",
+          "proficiency_score": 59
+        }
+      ],
+      "skills_to_work_on": [
+        {
+          "skill": "Statistical Inference",
+          "current_score": 59,
+          "target_score": 90,
+          "priority": "High"
+        }
+      ],
+      "recommended_training": [
+        "Statistical Inference"
+      ],
+      "learning_status": "In Progress",
+      "overall_progress": 46
+    },
+    {
+      "id": 90,
+      "name": "Jyoti Mishra",
+      "role": "Statistical Officer",
+      "department": "Official Statistical System",
+      "skills": [
+        {
+          "name": "Sampling Techniques",
+          "proficiency_score": 93
+        },
+        {
+          "name": "Data Analysis",
+          "proficiency_score": 83
+        },
+        {
+          "name": "Machine Learning",
+          "proficiency_score": 66
+        },
+        {
+          "name": "Statistics",
+          "proficiency_score": 67
+        },
+        {
+          "name": "GIS",
+          "proficiency_score": 90
+        }
+      ],
+      "skills_to_work_on": [
+        {
+          "skill": "Machine Learning",
+          "current_score": 66,
+          "target_score": 83,
+          "priority": "Medium"
+        },
+        {
+          "skill": "Statistics",
+          "current_score": 67,
+          "target_score": 87,
+          "priority": "Medium"
+        }
+      ],
+      "recommended_training": [
+        "Machine Learning Fundamentals",
+        "Advanced Statistics"
+      ],
+      "learning_status": "Completed",
+      "overall_progress": 84
+    },
+    {
+      "id": 91,
+      "name": "Dhruv Sharma",
+      "role": "Statistical Officer",
+      "department": "Official Statistical System",
+      "skills": [
+        {
+          "name": "Data Visualization",
+          "proficiency_score": 76
+        },
+        {
+          "name": "Data Quality Management",
+          "proficiency_score": 55
+        },
+        {
+          "name": "Statistics",
+          "proficiency_score": 83
+        },
+        {
+          "name": "Survey Methodology",
+          "proficiency_score": 87
+        },
+        {
+          "name": "Machine Learning",
+          "proficiency_score": 60
+        }
+      ],
+      "skills_to_work_on": [
+        {
+          "skill": "Data Quality Management",
+          "current_score": 55,
+          "target_score": 86,
+          "priority": "High"
+        }
+      ],
+      "recommended_training": [
+        "Data Quality Management"
+      ],
+      "learning_status": "In Progress",
+      "overall_progress": 66
+    },
+    {
+      "id": 92,
+      "name": "Shalini Verma",
+      "role": "Research Officer",
+      "department": "Official Statistical System",
+      "skills": [
+        {
+          "name": "GIS",
+          "proficiency_score": 90
+        },
+        {
+          "name": "Sampling Techniques",
+          "proficiency_score": 93
+        },
+        {
+          "name": "Data Quality Management",
+          "proficiency_score": 73
+        },
+        {
+          "name": "Excel",
+          "proficiency_score": 76
+        },
+        {
+          "name": "Machine Learning",
+          "proficiency_score": 85
+        }
+      ],
+      "skills_to_work_on": [
+        {
+          "skill": "Data Quality Management",
+          "current_score": 73,
+          "target_score": 88,
+          "priority": "Medium"
+        },
+        {
+          "skill": "Excel",
+          "current_score": 76,
+          "target_score": 80,
+          "priority": "Medium"
+        }
+      ],
+      "recommended_training": [
+        "Data Quality Management",
+        "Advanced Excel for Data Analysis"
+      ],
+      "learning_status": "Completed",
+      "overall_progress": 40
+    },
+    {
+      "id": 93,
+      "name": "Rishabh Gupta",
+      "role": "Research Officer",
+      "department": "Official Statistical System",
+      "skills": [
+        {
+          "name": "Excel",
+          "proficiency_score": 64
+        },
+        {
+          "name": "Python",
+          "proficiency_score": 69
+        },
+        {
+          "name": "Statistics",
+          "proficiency_score": 71
+        },
+        {
+          "name": "Machine Learning",
+          "proficiency_score": 85
+        },
+        {
+          "name": "Data Visualization",
+          "proficiency_score": 94
+        }
+      ],
+      "skills_to_work_on": [
+        {
+          "skill": "Excel",
+          "current_score": 64,
+          "target_score": 80,
+          "priority": "High"
+        }
+      ],
+      "recommended_training": [
+        "Advanced Excel for Data Analysis"
+      ],
+      "learning_status": "Completed",
+      "overall_progress": 83
+    },
+    {
+      "id": 94,
+      "name": "Payal Singh",
+      "role": "Statistical Officer",
+      "department": "Official Statistical System",
+      "skills": [
+        {
+          "name": "Machine Learning",
+          "proficiency_score": 62
+        },
+        {
+          "name": "Data Quality Management",
+          "proficiency_score": 60
+        },
+        {
+          "name": "SQL",
+          "proficiency_score": 79
+        },
+        {
+          "name": "Sampling Techniques",
+          "proficiency_score": 58
+        },
+        {
+          "name": "Data Visualization",
+          "proficiency_score": 78
+        }
+      ],
+      "skills_to_work_on": [
+        {
+          "skill": "Sampling Techniques",
+          "current_score": 58,
+          "target_score": 88,
+          "priority": "High"
+        }
+      ],
+      "recommended_training": [
+        "Sampling Techniques"
+      ],
+      "learning_status": "Not Started",
+      "overall_progress": 78
+    },
+    {
+      "id": 95,
+      "name": "Kartik Yadav",
+      "role": "Survey Officer",
+      "department": "Official Statistical System",
+      "skills": [
+        {
+          "name": "Data Analysis",
+          "proficiency_score": 85
+        },
+        {
+          "name": "Machine Learning",
+          "proficiency_score": 63
+        },
+        {
+          "name": "Statistics",
+          "proficiency_score": 70
+        },
+        {
+          "name": "GIS",
+          "proficiency_score": 72
+        },
+        {
+          "name": "Data Visualization",
+          "proficiency_score": 85
+        }
+      ],
+      "skills_to_work_on": [
+        {
+          "skill": "Machine Learning",
+          "current_score": 63,
+          "target_score": 84,
+          "priority": "High"
+        }
+      ],
+      "recommended_training": [
+        "Machine Learning Fundamentals"
+      ],
+      "learning_status": "Completed",
+      "overall_progress": 29
+    },
+    {
+      "id": 96,
+      "name": "Shruti Kumar",
+      "role": "Data Analyst",
+      "department": "Official Statistical System",
+      "skills": [
+        {
+          "name": "Statistical Inference",
+          "proficiency_score": 60
+        },
+        {
+          "name": "Data Visualization",
+          "proficiency_score": 90
+        },
+        {
+          "name": "Survey Methodology",
+          "proficiency_score": 89
+        },
+        {
+          "name": "Excel",
+          "proficiency_score": 57
+        },
+        {
+          "name": "Machine Learning",
+          "proficiency_score": 88
+        }
+      ],
+      "skills_to_work_on": [
+        {
+          "skill": "Excel",
+          "current_score": 57,
+          "target_score": 84,
+          "priority": "High"
+        }
+      ],
+      "recommended_training": [
+        "Advanced Excel for Data Analysis"
+      ],
+      "learning_status": "Not Started",
+      "overall_progress": 54
+    },
+    {
+      "id": 97,
+      "name": "Manoj Patel",
+      "role": "Survey Officer",
+      "department": "Official Statistical System",
+      "skills": [
+        {
+          "name": "Python",
+          "proficiency_score": 66
+        },
+        {
+          "name": "Data Visualization",
+          "proficiency_score": 56
+        },
+        {
+          "name": "Statistical Inference",
+          "proficiency_score": 79
+        },
+        {
+          "name": "GIS",
+          "proficiency_score": 94
+        },
+        {
+          "name": "Statistics",
+          "proficiency_score": 84
+        }
+      ],
+      "skills_to_work_on": [
+        {
+          "skill": "Data Visualization",
+          "current_score": 56,
+          "target_score": 84,
+          "priority": "High"
+        },
+        {
+          "skill": "Python",
+          "current_score": 66,
+          "target_score": 80,
+          "priority": "Medium"
+        }
+      ],
+      "recommended_training": [
+        "Data Visualization with Python",
+        "Python for Data Analysis"
+      ],
+      "learning_status": "In Progress",
+      "overall_progress": 49
+    },
+    {
+      "id": 98,
+      "name": "Diya Sharma",
+      "role": "Survey Officer",
+      "department": "Official Statistical System",
+      "skills": [
+        {
+          "name": "Survey Methodology",
+          "proficiency_score": 69
+        },
+        {
+          "name": "Data Analysis",
+          "proficiency_score": 73
+        },
+        {
+          "name": "Data Visualization",
+          "proficiency_score": 70
+        },
+        {
+          "name": "SQL",
+          "proficiency_score": 77
+        },
+        {
+          "name": "Python",
+          "proficiency_score": 83
+        }
+      ],
+      "skills_to_work_on": [
+        {
+          "skill": "Survey Methodology",
+          "current_score": 69,
+          "target_score": 86,
+          "priority": "Medium"
+        }
+      ],
+      "recommended_training": [
+        "Survey Methodology"
+      ],
+      "learning_status": "Completed",
+      "overall_progress": 69
+    },
+    {
+      "id": 99,
+      "name": "Anurag Singh",
+      "role": "Research Officer",
+      "department": "Official Statistical System",
+      "skills": [
+        {
+          "name": "Statistics",
+          "proficiency_score": 62
+        },
+        {
+          "name": "SQL",
+          "proficiency_score": 85
+        },
+        {
+          "name": "GIS",
+          "proficiency_score": 76
+        },
+        {
+          "name": "Sampling Techniques",
+          "proficiency_score": 61
+        },
+        {
+          "name": "Machine Learning",
+          "proficiency_score": 84
+        }
+      ],
+      "skills_to_work_on": [
+        {
+          "skill": "Sampling Techniques",
+          "current_score": 61,
+          "target_score": 83,
+          "priority": "High"
+        },
+        {
+          "skill": "Statistics",
+          "current_score": 62,
+          "target_score": 84,
+          "priority": "High"
+        }
+      ],
+      "recommended_training": [
+        "Sampling Techniques",
+        "Advanced Statistics"
+      ],
+      "learning_status": "In Progress",
+      "overall_progress": 60
+    },
+    {
+      "id": 100,
+      "name": "Madhuri Verma",
+      "role": "Data Analyst",
+      "department": "Official Statistical System",
+      "skills": [
+        {
+          "name": "Survey Methodology",
+          "proficiency_score": 75
+        },
+        {
+          "name": "Sampling Techniques",
+          "proficiency_score": 75
+        },
+        {
+          "name": "Data Analysis",
+          "proficiency_score": 62
+        },
+        {
+          "name": "Statistics",
+          "proficiency_score": 80
+        },
+        {
+          "name": "Machine Learning",
+          "proficiency_score": 73
+        }
+      ],
+      "skills_to_work_on": [
+        {
+          "skill": "Data Analysis",
+          "current_score": 62,
+          "target_score": 90,
+          "priority": "High"
+        }
+      ],
+      "recommended_training": [
+        "Data Analysis Fundamentals"
+      ],
+      "learning_status": "Not Started",
+      "overall_progress": 56
+    }
+  ]
+}
